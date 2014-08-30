@@ -1,0 +1,48 @@
+@import 'base.scss';
+
+//
+// Variables
+//
+
+$off-black: #222;
+
+$black-bkgd-color:$off-black;
+$white-bkgd-color:white;
+$white-font:white;
+$black-font:$off-black;
+
+//
+// Styles
+//
+
+@include font-stroke('header h1', 2);
+
+::selection { background:#888; color:$white-font; }
+::-moz-selection { background:#888; color:$white-font; }
+
+header { background-color:$black-bkgd-color; background-image:url(/img/header.jpg); background-size:cover; background-position:center center; height:500px; text-align:center;
+    h1 { font-family:'Righteous', 'sans-serif'; font-size:7rem; font-weight:400; padding:0; margin:0; text-transform:uppercase; }
+}
+
+footer { background-color:$black-bkgd-color; color:$white-font; padding:2rem;
+    a { color:$white-font;
+        &:active, &:hover { border-bottom:1px solid; color:$white-font; }
+        &:visited { color:$white-font; }
+    }
+}
+
+.header-content { @extend %vertical-align; }
+
+.header-button-group { list-style:none;
+    & > li { border-top:2px solid $off-black; border-bottom:2px solid $off-black;
+        &:first-child { border-left:2px solid $off-black; }
+        &:last-child { border-right:2px solid $off-black; }
+    }
+    a { @include button(simple, $white-bkgd-color); font-family:'Ubuntu', 'sans-serif'; color:$black-font; font-size:1.5rem; font-weight:400; margin:0; width:100%; }
+    .social { @include button(simple, $white-bkgd-color, $padding:1rem); color:$black-font; font-size:1rem; font-weight:400; margin:0; }
+    // & > li { @include button-group-style($radius:10px, $even:3); }
+}
+
+.footer-links { text-align:center; }
+
+.footer-info { text-align:right; }
