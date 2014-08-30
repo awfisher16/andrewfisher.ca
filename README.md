@@ -10,6 +10,8 @@ To run this project:
     bundle
     bundle exec middleman
 
+`ctrl+c` to exit `middleman`
+
 To expliain what's happening:
 
   1. we need to be in the project directory to do anythign
