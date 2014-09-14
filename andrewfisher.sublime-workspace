@@ -1,0 +1,468 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wh",
+				"white-bkgd-color"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"header",
+				"header-font-color"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"background",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1354,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/_base.scss",
+			"settings":
+			{
+				"buffer_size": 227,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/style.css.scss",
+			"settings":
+			{
+				"buffer_size": 1606,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/_foundation_settings.scss",
+			"settings":
+			{
+				"buffer_size": 42405,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "source/css/_functions.scss",
+			"settings":
+			{
+				"buffer_size": 1246,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"lor",
+				"LoremIpsum: (30) lots"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/www/andrewfisher.ca/Gemfile",
+		"/C/www/andrewfisher.ca/source/css/base/_base.scss",
+		"/C/www/andrewfisher.ca/source/css/style.css.scss",
+		"/C/www/andrewfisher.ca/source/css/_functions.scss",
+		"/C/www/andrewfisher.ca/source/css/_foundation_settings.scss",
+		"/C/www/andrewfisher.ca/source/css/_base.scss",
+		"/C/www/andrewfisher.ca/source/README.md",
+		"/C/www/andrewfisher.ca/source/js/all.js",
+		"/C/www/andrewfisher.ca/README.md",
+		"/C/www/andrewfisher.ca/source/index.html",
+		"/C/www/andrewfisher.ca/config.rb",
+		"/C/www/andrewfisher.ca/Gemfile.lock",
+		"/C/www/andrewfisher.ca/config.ru",
+		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV_2.0.html",
+		"/C/Program Files (x86)/Git/doc/git/html/git.html",
+		"/Z/Documents/Personal Documents/Employment/Resumes/Andrew_Fisher_Political_Resume.html",
+		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV.html",
+		"/C/www/andrewfisher.ca/andrewfisher.sublime-project",
+		"/C/www/andrewfisher.ca/source/css/functions.scss",
+		"/C/www/andrewfisher.ca/index.html",
+		"/C/Ruby200-x64/lib/ruby/gems/2.0.0/gems/eventmachine-1.0.3/ext/project.h",
+		"/C/Ruby-devkit-x64/config.yml",
+		"/Z/Documents/www/andrewfisher.ca/config.rb",
+		"/Z/Documents/www/andrewfisher.ca/scss/style.scss",
+		"/Z/Documents/www/andrewfisher.ca/sass/style.scss",
+		"/Z/Documents/www/andrewfisher.ca/andrewfisher.sublime-project",
+		"/Z/Documents/www/andrewfisher.ca/css/style.css",
+		"/C/Users/Andrew Fisher/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Z/Documents/www/andrewfisher.ca/test.html",
+		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/F11/Continuous Round/Andrew_Fisher_Resume_Arup.html",
+		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/S12/Andrew_Fisher_Resume_Caskanette.html",
+		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/F11/First Round/Andrew_Fisher_Resume_AMEC.html",
+		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/S13/Andrew_Fisher_Resume_Tacoma.html",
+		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/S13/Andrew_Fisher_Resume_Dillon.html",
+		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/Andrew_Fisher_CV.html",
+		"/C/Program Files (x86)/Adobe/Read Me First.html",
+		"/C/Program Files (x86)/Adobe/How To Install.html",
+		"/Z/Documents/Personal Documents/Computer Programs/Engineering/SAP2000 v16/license/lservrc",
+		"/C/Program Files (x86)/Adobe/Adobe Photoshop CS2/Photoshop.dll",
+		"/C/Program Files/MATLAB/R2012b/licenses/network.lic",
+		"/Z/Documents/Personal Documents/Computer Programs/Engineering/Matlab/license.dat",
+		"/C/Creative Suite CS2/How To Install.html",
+		"/Z/Music/iTunes/sentinel",
+		"/Z/Music/iTunes/Library.xml",
+		"/E/Manual Backup/Movies/_SYNCAPP/metadata.xml",
+		"/Z/Music/iTunes/iTunes Library.xml",
+		"/C/Users/Andrew Fisher/Desktop/composite.vsh"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"live",
+			"\"",
+			"em",
+			"rem",
+			"@",
+			"em",
+			"rem",
+			"button-si\\ze",
+			"button-size",
+			"small",
+			"red",
+			"$primary-color",
+			"margin",
+			" class=\"header-button\"",
+			"#222",
+			"$bkgd-color",
+			"$header-font-color",
+			"$footer-font-color",
+			"$footer-link-color",
+			"link",
+			";\n",
+			"5",
+			"text",
+			"$stroke-color",
+			"font-color",
+			"1",
+			"(-$thickness)",
+			"1px",
+			"$font-color",
+			"$stroke-color",
+			".#",
+			"class",
+			"#ffffff",
+			"white",
+			"#myelement",
+			"ffffff",
+			"$header-link-color",
+			"     ",
+			"#222",
+			"Facebook",
+			"ser",
+			"server",
+			"port"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 1354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								995,
+								995
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/css/_base.scss",
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/css/style.css.scss",
+					"settings":
+					{
+						"buffer_size": 1606,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/css/_foundation_settings.scss",
+					"settings":
+					{
+						"buffer_size": 42405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 19275.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/css/_functions.scss",
+					"settings":
+					{
+						"buffer_size": 1246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1246,
+								1246
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"conf",
+				"config.rb"
+			],
+			[
+				"functions",
+				"source/css/_functions.scss"
+			],
+			[
+				"gemfil",
+				"Gemfile.lock"
+			],
+			[
+				"gem",
+				"Gemfile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true
+}
