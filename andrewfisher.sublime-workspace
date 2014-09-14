@@ -36,11 +36,11 @@
 	"buffers":
 	[
 		{
-			"file": "README.md",
+			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 1354,
-				"line_ending": "Unix"
+				"buffer_size": 400,
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -48,7 +48,7 @@
 			"settings":
 			{
 				"buffer_size": 227,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -56,23 +56,15 @@
 			"settings":
 			{
 				"buffer_size": 1606,
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "source/css/_foundation_settings.scss",
+			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 42405,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "source/css/_functions.scss",
-			"settings":
-			{
-				"buffer_size": 1246,
-				"line_ending": "Unix"
+				"buffer_size": 5798,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -124,18 +116,20 @@
 	},
 	"file_history":
 	[
-		"/C/www/andrewfisher.ca/Gemfile",
-		"/C/www/andrewfisher.ca/source/css/base/_base.scss",
-		"/C/www/andrewfisher.ca/source/css/style.css.scss",
 		"/C/www/andrewfisher.ca/source/css/_functions.scss",
-		"/C/www/andrewfisher.ca/source/css/_foundation_settings.scss",
+		"/C/www/andrewfisher.ca/Gemfile.lock",
 		"/C/www/andrewfisher.ca/source/css/_base.scss",
 		"/C/www/andrewfisher.ca/source/README.md",
-		"/C/www/andrewfisher.ca/source/js/all.js",
 		"/C/www/andrewfisher.ca/README.md",
+		"/C/www/andrewfisher.ca/Gemfile",
+		"/C/www/andrewfisher.ca/build/README.html",
+		"/C/www/andrewfisher.ca/.gitignore",
+		"/C/www/andrewfisher.ca/source/css/style.css.scss",
+		"/C/www/andrewfisher.ca/source/css/_foundation_settings.scss",
+		"/C/www/andrewfisher.ca/source/css/base/_base.scss",
+		"/C/www/andrewfisher.ca/source/js/all.js",
 		"/C/www/andrewfisher.ca/source/index.html",
 		"/C/www/andrewfisher.ca/config.rb",
-		"/C/www/andrewfisher.ca/Gemfile.lock",
 		"/C/www/andrewfisher.ca/config.ru",
 		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV_2.0.html",
 		"/C/Program Files (x86)/Git/doc/git/html/git.html",
@@ -250,29 +244,28 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "README.md",
+					"file": "Gemfile",
 					"settings":
 					{
-						"buffer_size": 1354,
+						"buffer_size": 400,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								995,
-								995
+								95,
+								95
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -318,8 +311,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								20,
+								20
 							]
 						],
 						"settings":
@@ -336,54 +329,28 @@
 				},
 				{
 					"buffer": 3,
-					"file": "source/css/_foundation_settings.scss",
+					"file": "source/index.html",
 					"settings":
 					{
-						"buffer_size": 42405,
+						"buffer_size": 5798,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								200,
-								200
+								1628,
+								1628
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 19275.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "source/css/_functions.scss",
-					"settings":
-					{
-						"buffer_size": 1246,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1246,
-								1246
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 540.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

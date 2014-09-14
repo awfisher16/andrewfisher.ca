@@ -1,6 +1,8 @@
 @import 'bourbon';
 @import 'neat';
 @import 'base/base';
+
+$fa-enable-utilities: false;
 @import 'font-awesome';
 
 @import 'functions';
