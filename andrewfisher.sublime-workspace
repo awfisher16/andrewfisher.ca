@@ -4,16 +4,20 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
 				"wh",
 				"white-bkgd-color"
 			],
 			[
 				"border-c",
 				"border-color"
-			],
-			[
-				"text",
-				"text-transform"
 			],
 			[
 				"header",
@@ -36,10 +40,10 @@
 	"buffers":
 	[
 		{
-			"file": "Gemfile",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 400,
+				"buffer_size": 1366,
 				"line_ending": "Windows"
 			}
 		},
@@ -47,15 +51,7 @@
 			"file": "source/css/_base.scss",
 			"settings":
 			{
-				"buffer_size": 227,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/css/style.css.scss",
-			"settings":
-			{
-				"buffer_size": 1606,
+				"buffer_size": 132,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,8 +59,32 @@
 			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 5798,
+				"buffer_size": 11476,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/css/style.css.scss",
+			"settings":
+			{
+				"buffer_size": 14578,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/css/_functions.scss",
+			"settings":
+			{
+				"buffer_size": 20,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/js/all.js",
+			"settings":
+			{
+				"buffer_size": 375,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -116,22 +136,28 @@
 	},
 	"file_history":
 	[
+		"/C/Program Files (x86)/Adobe/Acrobat 8.0/Setup Files/{AC76BA86-1033-0000-7760-000000000003}/Data1.cab",
+		"/Z/Documents/University of Toronto/Thesis/Materials/Harris Steel/Couping Tests/15M/andrew 15mm--#2 oct--1 2014.dat",
+		"/Z/Documents/University of Toronto/Thesis/Materials/Harris Steel/Couping Tests/10M/andrew 10mm--#1 oct 2 2014.dat",
+		"/Z/Documents/University of Toronto/Thesis/Materials/Harris Steel/Couping Tests/15M/andrew 15mm--#1 oct--1 2014.dat",
+		"/Z/Documents/University of Toronto/Thesis/Materials/Harris Steel/Couping Tests/20M/andrew 20mm--#1 30-sep 2014.dat",
+		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV_2.0.html",
 		"/C/www/andrewfisher.ca/source/css/_functions.scss",
+		"/C/www/andrewfisher.ca/source/css/style.css.scss",
+		"/C/www/andrewfisher.ca/source/index.html",
+		"/C/www/andrewfisher.ca/Gemfile",
+		"/C/Ruby193/lib/ruby/gems/1.9.1/gems/font-awesome-middleman-4.2.0/app/assets/stylesheets/font-awesome/_larger.scss",
 		"/C/www/andrewfisher.ca/Gemfile.lock",
 		"/C/www/andrewfisher.ca/source/css/_base.scss",
 		"/C/www/andrewfisher.ca/source/README.md",
 		"/C/www/andrewfisher.ca/README.md",
-		"/C/www/andrewfisher.ca/Gemfile",
 		"/C/www/andrewfisher.ca/build/README.html",
 		"/C/www/andrewfisher.ca/.gitignore",
-		"/C/www/andrewfisher.ca/source/css/style.css.scss",
 		"/C/www/andrewfisher.ca/source/css/_foundation_settings.scss",
 		"/C/www/andrewfisher.ca/source/css/base/_base.scss",
 		"/C/www/andrewfisher.ca/source/js/all.js",
-		"/C/www/andrewfisher.ca/source/index.html",
 		"/C/www/andrewfisher.ca/config.rb",
 		"/C/www/andrewfisher.ca/config.ru",
-		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV_2.0.html",
 		"/C/Program Files (x86)/Git/doc/git/html/git.html",
 		"/Z/Documents/Personal Documents/Employment/Resumes/Andrew_Fisher_Political_Resume.html",
 		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV.html",
@@ -184,6 +210,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\n  ",
+			"wrapper",
+			";\n",
+			"$columns",
+			"60",
+			"enable",
 			"live",
 			"\"",
 			"em",
@@ -249,23 +281,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Gemfile",
+					"file": "README.md",
 					"settings":
 					{
-						"buffer_size": 400,
+						"buffer_size": 1366,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								95,
-								95
+								164,
+								164
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -278,15 +312,15 @@
 					"file": "source/css/_base.scss",
 					"settings":
 					{
-						"buffer_size": 227,
+						"buffer_size": 132,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								227,
-								227
+								131,
+								131
 							]
 						],
 						"settings":
@@ -301,10 +335,66 @@
 				},
 				{
 					"buffer": 2,
+					"file": "source/index.html",
+					"settings":
+					{
+						"buffer_size": 11476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7978,
+								7978
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1575.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "source/css/style.css.scss",
 					"settings":
 					{
-						"buffer_size": 1606,
+						"buffer_size": 14578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10675,
+								10675
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7470.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/css/_functions.scss",
+					"settings":
+					{
+						"buffer_size": 20,
 						"regions":
 						{
 						},
@@ -318,7 +408,7 @@
 						"settings":
 						{
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -328,29 +418,29 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "source/index.html",
+					"buffer": 5,
+					"file": "source/js/all.js",
 					"settings":
 					{
-						"buffer_size": 5798,
+						"buffer_size": 375,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1628,
-								1628
+								370,
+								370
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

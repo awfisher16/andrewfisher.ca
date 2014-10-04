@@ -53,19 +53,19 @@ $medium-screen: 150px;
         margin-bottom: .5em;
 
         @include media($large-screen) {
-          font-size: 1.8em;
+          font-size: 6em;
         }
       }
 
-      p {
+      h2 {
         font-family: $serif;
         margin: auto;
-        margin-bottom: 3em;
+        margin-bottom: .5em;
         font-weight: 200;
         line-height: 1.4em;
 
         @include media($large-screen) {
-          font-size: 1.1em;
+          font-size: 3em;
           max-width: 40%;
         }
       }
@@ -80,8 +80,8 @@ $medium-screen: 150px;
 .centered-navigation {
   $centered-navigation-padding: 1em;
   $centered-navigation-logo-height: 2em;
-  $centered-navigation-background: #E7F1EC;
-  $centered-navigation-color: transparentize($base-font-color, 0.3);
+  $centered-navigation-background: transparentize(#E0E0E0, .3);
+  $centered-navigation-color: transparentize($base-font-color, .3);
   $centered-navigation-color-hover: $base-font-color;
   $centered-navigation-height: 60px;
   $centered-navigation-item-padding: 1em;
@@ -148,7 +148,9 @@ $medium-screen: 150px;
 
   ul.centered-navigation-menu {
     -webkit-transform-style: preserve-3d;
+
 // stop webkit flicker
+
     clear: both;
     display: none;
     margin: 0 auto;
@@ -335,75 +337,73 @@ $medium-screen: 150px;
 }
 
 //
-// Intro Message
+// Image Message
 //
 
-.intro-text {
-  $intro-text-width: 60%;
+$side-image-background-top: #505050;
+$side-image-background-bottom: #000000;
+$side-image-border: 2px solid darken(transparentize($side-image-background-bottom, .8), 30);
 
-  margin-bottom: 5em;
-  margin-top: 4em;
-  text-align: center;
+.side-image {
+  background: #F9F9F9;
 
-  h2 {
-    font-family: $serif;
-    font-weight: 800;
-    margin-bottom: .3em;
+  @include media($large-screen) {
+    @include row(table);
+  }
+
+  .images-wrapper {
+    @include background(url('/img/Profile_Photo.JPG'), linear-gradient($side-image-background-top, $side-image-background-bottom), no-repeat $side-image-background-top scroll);
+    background-color: $side-image-background-top;
+    border-bottom: $side-image-border;
+    background-size: cover;
+    display: block;
+    min-height: 12em;
+    padding: 3em;
 
     @include media($large-screen) {
-      font-size: 3em;
-      margin-bottom: .4em;
+      @include span-columns(4);
+      background-position: bottom;
+      background-size: cover;
+      border-right: $side-image-border;
     }
   }
 
-  h3 {
-    background: $base-accent-color;
+  .content {
+    @include span-columns(12);
+    padding: 1em 1em 4em 1em;
+
+    @include media($large-screen) {
+      @include span-columns(8);
+      padding: 4em 4em 4em 4em;
+    }
+  }
+
+  .content h1 {
+    margin-bottom: .9em;
+  }
+
+  .content h4 {
+    background: $side-image-background-bottom;
     color: white;
     display: inline-block;
-    font-size: .7em;
+    font-size: .75em;
     font-weight: 800;
-    margin-bottom: 2em;
+    margin-bottom: 1.3em;
     padding: 3px 8px;
     text-transform: uppercase;
-
-    @include media($large-screen) {
-      margin-bottom: 3.3em;
-    }
   }
 
-  h4 {
-    color: lighten($base-font-color, 20);
-    font-size: 1.3em;
-    font-weight: 300;
-    line-height: 1.4em;
-    margin: 0 auto 1em;
-
-    @include media($large-screen) {
-      font-size: 1.7em;
-      line-height: 1.35em;
-      margin: 0 auto 1em;
-      width: $intro-text-width;
-    }
+  .content p {
+    color: gray;
+    margin-bottom: 3em;
   }
 
-  p {
-    margin: auto;
-
-    @include media($large-screen) {
-      width: $intro-text-width;
-    }
-
-    a {
-      font-size: .8em;
-      font-weight: 400;
-      text-transform: uppercase;
-
-      span {
-        font-size: 1.3em;
-        line-height: 0;
-      }
-    }
+  .content button {
+    @include button(simple, white);
+    font-size: $base-font-size;
+    outline: none;
   }
+  @include reset-display();
 }
 
 //
@@ -414,7 +414,6 @@ $medium-screen: 150px;
   $icon-bullet-size: 3.5em;
 
   overflow: auto;
-  margin-bottom: $base-line-height;
   @include outer-container;
 
 // change ".three-col-bullet" class to this for two bullet layout
@@ -431,7 +430,6 @@ $medium-screen: 150px;
     @include omega(3n)
     }
   }
-
 
 // change ".three-col-bullet" class to this for four bullet layout
   .four-col-bullet {
@@ -477,83 +475,12 @@ $medium-screen: 150px;
 }
 
 //
-// Image Message
-//
-
-$side-image-background-top: #B5EBEB;
-$side-image-background-bottom: #5DAC5D;
-$side-image-border: 1px solid darken(transparentize($side-image-background-bottom, .8), 30);
-
-.side-image {
-  background: #F9F9F9;
-
-  @include media($large-screen) {
-    @include row(table);
-  }
-
-  .images-wrapper {
-    @include background(url('https:
-//raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png'), linear-gradient($side-image-background-top, $side-image-background-bottom), no-repeat $side-image-background-top scroll);
-    background-color: $side-image-background-top;
-    border-bottom: $side-image-border;
-    background-size: cover;
-    display: block;
-    min-height: 12em;
-    padding: 3em;
-
-    @include media($large-screen) {
-      @include span-columns(4);
-      background-position: bottom;
-      background-size: cover;
-      border-right: $side-image-border;
-    }
-  }
-
-  .content {
-    @include span-columns(12);
-    padding: 1em 1em 4em 1em;
-
-    @include media($large-screen) {
-      @include span-columns(8);
-      padding: 4em 4em 8em 4em;
-    }
-  }
-
-  .content h1 {
-    margin-bottom: .9em;
-  }
-
-  .content h4 {
-    background: $side-image-background-bottom;
-    color: white;
-    display: inline-block;
-    font-size: .75em;
-    font-weight: 800;
-    margin-bottom: 1.3em;
-    padding: 3px 8px;
-    text-transform: uppercase;
-  }
-
-  .content p {
-    color: gray;
-    margin-bottom: 3em;
-  }
-
-  .content button {
-    @include button(simple, white);
-    font-size: $base-font-size;
-    outline: none;
-  }
-  @include reset-display();
-}
-
-//
 // Grid of Images
 //
 
 .grid-title {
 
-  margin-bottom: 5em;
+  margin-bottom: 2em;
   margin-top: 4em;
   text-align: center;
 
@@ -572,6 +499,13 @@ $side-image-border: 1px solid darken(transparentize($side-image-background-botto
 
 @mixin grid-item-columns($columns) {
   width: (100% / 12) * $columns;
+}
+.grid-wrapper {
+  text-align: center;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
 }
 
 .grid-items {
