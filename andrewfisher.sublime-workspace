@@ -4,8 +4,24 @@
 		"selected_items":
 		[
 			[
+				"background-",
+				"background-image"
+			],
+			[
+				"background",
+				"background-clip"
+			],
+			[
+				"back",
+				"background-clip"
+			],
+			[
 				"margin",
-				"margin-right"
+				"margin-bottom"
+			],
+			[
+				"grid",
+				"grid-background"
 			],
 			[
 				"text",
@@ -30,20 +46,34 @@
 			[
 				"font",
 				"font-size"
-			],
-			[
-				"background",
-				"background-color"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "README.md",
+			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 1366,
+				"buffer_size": 10123,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n",
+			"settings":
+			{
+				"buffer_size": 2331,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "source/css/style.css.scss",
+			"settings":
+			{
+				"buffer_size": 10426,
 				"line_ending": "Windows"
 			}
 		},
@@ -56,35 +86,11 @@
 			}
 		},
 		{
-			"file": "source/index.html",
-			"settings":
-			{
-				"buffer_size": 11476,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/css/style.css.scss",
-			"settings":
-			{
-				"buffer_size": 14578,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "source/css/_functions.scss",
 			"settings":
 			{
 				"buffer_size": 20,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/js/all.js",
-			"settings":
-			{
-				"buffer_size": 375,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -136,31 +142,38 @@
 	},
 	"file_history":
 	[
+		"/C/www/andrewfisher.ca/README.md",
+		"/C/www/andrewfisher.ca/source/index.html",
+		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV_2.0.html",
+		"/Z/Documents/Personal Documents/Employment/Resumes/TA Resume/Andrew_Fisher_Resume_APS112.html",
+		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/S13/Andrew_Fisher_Resume_Delcan (Kitchener).html",
+		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/W13/Andrew_Fisher_Resume_CFES.html",
+		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV.html",
+		"/Z/Documents/Personal Documents/Employment/Resumes/Political Resume/Andrew_Fisher_Political_Resume.html",
+		"/Z/Documents/University of Toronto/Thesis/Materials/Harris Steel/Couping Tests/10M/andrew 10mm--#3 oct 2 2014.dat",
+		"/Z/Documents/University of Toronto/Thesis/Materials/Harris Steel/Couping Tests/15M/andrew 15mm--#3 oct--2 2014.dat",
+		"/C/www/andrewfisher.ca/source/css/_base.scss",
+		"/C/www/andrewfisher.ca/source/css/style.css.scss",
+		"/C/www/andrewfisher.ca/source/css/_functions.scss",
+		"/C/www/andrewfisher.ca/source/js/all.js",
+		"/Z/Desktop/stargate.ovpn",
 		"/C/Program Files (x86)/Adobe/Acrobat 8.0/Setup Files/{AC76BA86-1033-0000-7760-000000000003}/Data1.cab",
 		"/Z/Documents/University of Toronto/Thesis/Materials/Harris Steel/Couping Tests/15M/andrew 15mm--#2 oct--1 2014.dat",
 		"/Z/Documents/University of Toronto/Thesis/Materials/Harris Steel/Couping Tests/10M/andrew 10mm--#1 oct 2 2014.dat",
 		"/Z/Documents/University of Toronto/Thesis/Materials/Harris Steel/Couping Tests/15M/andrew 15mm--#1 oct--1 2014.dat",
 		"/Z/Documents/University of Toronto/Thesis/Materials/Harris Steel/Couping Tests/20M/andrew 20mm--#1 30-sep 2014.dat",
-		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV_2.0.html",
-		"/C/www/andrewfisher.ca/source/css/_functions.scss",
-		"/C/www/andrewfisher.ca/source/css/style.css.scss",
-		"/C/www/andrewfisher.ca/source/index.html",
 		"/C/www/andrewfisher.ca/Gemfile",
 		"/C/Ruby193/lib/ruby/gems/1.9.1/gems/font-awesome-middleman-4.2.0/app/assets/stylesheets/font-awesome/_larger.scss",
 		"/C/www/andrewfisher.ca/Gemfile.lock",
-		"/C/www/andrewfisher.ca/source/css/_base.scss",
 		"/C/www/andrewfisher.ca/source/README.md",
-		"/C/www/andrewfisher.ca/README.md",
 		"/C/www/andrewfisher.ca/build/README.html",
 		"/C/www/andrewfisher.ca/.gitignore",
 		"/C/www/andrewfisher.ca/source/css/_foundation_settings.scss",
 		"/C/www/andrewfisher.ca/source/css/base/_base.scss",
-		"/C/www/andrewfisher.ca/source/js/all.js",
 		"/C/www/andrewfisher.ca/config.rb",
 		"/C/www/andrewfisher.ca/config.ru",
 		"/C/Program Files (x86)/Git/doc/git/html/git.html",
 		"/Z/Documents/Personal Documents/Employment/Resumes/Andrew_Fisher_Political_Resume.html",
-		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV.html",
 		"/C/www/andrewfisher.ca/andrewfisher.sublime-project",
 		"/C/www/andrewfisher.ca/source/css/functions.scss",
 		"/C/www/andrewfisher.ca/index.html",
@@ -210,6 +223,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"base",
+			"colour",
+			"more",
+			"hero",
+			"height",
 			"\n  ",
 			"wrapper",
 			";\n",
@@ -276,30 +294,56 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "README.md",
+					"file": "source/index.html",
 					"settings":
 					{
-						"buffer_size": 1366,
+						"buffer_size": 10123,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								164,
-								164
+								5861,
+								5861
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 666.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"settings":
+					{
+						"buffer_size": 2331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1218,
+								1218
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -308,7 +352,36 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
+					"file": "source/css/style.css.scss",
+					"settings":
+					{
+						"buffer_size": 10426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8109,
+								8109
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6318.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "source/css/_base.scss",
 					"settings":
 					{
@@ -319,8 +392,8 @@
 						"selection":
 						[
 							[
-								131,
-								131
+								0,
+								0
 							]
 						],
 						"settings":
@@ -329,62 +402,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "source/index.html",
-					"settings":
-					{
-						"buffer_size": 11476,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7978,
-								7978
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1575.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "source/css/style.css.scss",
-					"settings":
-					{
-						"buffer_size": 14578,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10675,
-								10675
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 7470.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -401,43 +418,13 @@
 						"selection":
 						[
 							[
-								20,
-								20
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "source/js/all.js",
-					"settings":
-					{
-						"buffer_size": 375,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								370,
-								370
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
