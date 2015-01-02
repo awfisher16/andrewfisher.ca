@@ -7,6 +7,11 @@
 $large-screen: 260px;
 $medium-screen: 150px;
 
+html, body {
+    height: 100%;
+    margin:0;
+}
+
 //
 // Header Image
 //
@@ -16,7 +21,7 @@ $medium-screen: 150px;
   $header-image: '/img/Header_Image.jpg';
   $header-background-color: #565656;
   $header-border-color: #565656;
-  $header-text-color: black;
+  $header-font-color: black;
 
   @include background-image(url($header-image));
 
@@ -35,7 +40,7 @@ $medium-screen: 150px;
     padding: 3em;
     margin: auto;
     text-align: center;
-    color: $header-text-color;
+    color: $header-font-color;
 
     .header-copy {
       text-align: center;
@@ -67,23 +72,22 @@ $medium-screen: 150px;
 //
 
 .centered-navigation {
-  $centered-navigation-font-color: black;
-  $centered-navigation-padding: 1em;
-  $centered-navigation-logo-height: 2em;
-  $centered-navigation-background: transparentize(#004489, .3);
-  $centered-navigation-color: transparentize($centered-navigation-font-color, .3);
-  $centered-navigation-color-hover: $centered-navigation-font-color;
-  $centered-navigation-height: 60px;
-  $centered-navigation-item-padding: 1em;
-  $centered-navigation-submenu-padding: 1em;
-  $centered-navigation-submenu-width: 12em;
-  $centered-navigation-item-nudge: 2.2em;
+  $nav-padding: 1em;
+  $nav-logo-height: 2em;
+  $nav-background: transparentize(#004489, .3);
+  $nav-font-color: transparentize(#000000, .3);
+  $nav-font-color-hover: #000000;
+  $nav-height: 60px;
+  $nav-item-padding: 1em;
+  $nav-submenu-padding: 1em;
+  $nav-submenu-width: 12em;
+  $nav-item-nudge: 2.2em;
   $horizontal-bar-mode: $large-screen;
 
-  background-color: $centered-navigation-background;
-  border-top: 1px solid darken($centered-navigation-background, 6);
-  border-bottom: 1px solid darken($centered-navigation-background, 6);
-  height: $centered-navigation-height;
+  background-color: $nav-background;
+  border-top: 1px solid darken($nav-background, 6);
+  border-bottom: 1px solid darken($nav-background, 6);
+  height: $nav-height;
   width: 100%;
   z-index: 9999;
 
@@ -120,16 +124,16 @@ $medium-screen: 150px;
 
   .nav-link:first-child {
     @include media($horizontal-bar-mode) {
-      margin-left: $centered-navigation-item-nudge;
+      margin-left: $nav-item-nudge;
     }
   }
 
   ul li.nav-link {
-    background: $centered-navigation-background;
+    background: $nav-background;
     display: block;
-    line-height: $centered-navigation-height;
+    line-height: $nav-height;
     overflow: hidden;
-    padding-right: $centered-navigation-submenu-padding;
+    padding-right: $nav-submenu-padding;
     text-align: right;
     width: 100%;
     z-index: 9999;
@@ -139,22 +143,22 @@ $medium-screen: 150px;
     @include media($horizontal-bar-mode) {
       background: transparent;
       display: inline;
-      line-height: $centered-navigation-height;
+      line-height: $nav-height;
 
     a {
-        padding-right: $centered-navigation-item-padding;
-        color: $centered-navigation-color;
+        padding-right: $nav-item-padding;
+        color: $nav-font-color;
         display: inline-block;
 
         &:hover {
-          color: $centered-navigation-color-hover;
+          color: $nav-font-color-hover;
         }
       }
     }
   }
 
   .logo i {
-    max-height: $centered-navigation-logo-height;
+    max-height: $nav-logo-height;
     vertical-align: middle;
     font-size: 1.5em;
   }
@@ -288,220 +292,205 @@ h2 {
 }
 
 //
-// Grid of Images
+// Grid of Experience
 //
 
-.grid {
+$flex-boxes-background-color1: #989898;
+$flex-boxes-background-color2: #565656;
+$flex-boxes-background-color3: #D3D9DF;
+$flex-boxes-background-border-color: #565656;
+$flex-boxes-background-border: 2px solid darken(transparentize($flex-boxes-background-border-color, .2), 30);
 
-$grid-background-color: #D3D9DF;
-$grid-title-text-color: black;
-$grid-background-border-color: #565656;
-$grid-background-border: 2px solid darken(transparentize($grid-background-border-color, .2), 30);
-$grid-box-shadow-color: #565656;
+$flex-boxes-title-text-color1: #000000;
+$flex-boxes-title-text-color2: transparentize(#000000, .3);
+$flex-boxes-title-text-color2-hover: #000000;
 
-background-color: $grid-background-color;
-background-repeat: no-repeat;
-background-position: top;
-display: block;
-background-size: cover;
-padding-bottom: 4em;
-padding-top: 4em;
-border-top: $grid-background-border;
+$flex-box-border-color: #565656;
+$flex-box-border: 1px solid $flex-box-border-color;
+$flex-box-background: #D3D9DF;
+$flex-box-gutter: .4em;
+$flex-box-width: 18em;
+$flex-box-color: transparentize(#565656, .05);
+$flex-box-top-colors:
+  #002554,
+  #415635,
+  #74BBFB,
+  #056693,
+  #F4812A,
+  #F4812A;
+$flex-box-font-color: #565656;
 
-  .grid-title {
-    margin-bottom: 2em;
-    text-align: center;
+.info {
+  background:
+    radial-gradient($flex-boxes-background-color2, transparent 16%) 0 0,
+    radial-gradient($flex-boxes-background-color2, transparent 16%) 8px 8px,
+    radial-gradient($flex-boxes-background-color3, transparent 20%) 0 1px,
+    radial-gradient($flex-boxes-background-color3, transparent 20%) 8px 9px;
+  background-color:$flex-boxes-background-color1;
+  background-size:16px 16px;
+  border-top: $flex-boxes-background-border;
+  padding-top: 1em;
+}
 
-    h1 {
-      font-size: 1.6em;
-      color: $grid-title-text-color;
-      margin-bottom: 0.2em;
+.flex-boxes-title {
+  padding: 2em 0 2em 0;
+  text-align: center;
 
-      @include media($large-screen) {
-        font-size: 4em;
-      }
-    }
-  }
+  h1 {
+    font-size: 1.6em;
+    margin-bottom: 0.2em;
+    color:$flex-boxes-title-text-color1;
 
-@mixin grid-item-columns($columns) {
-    width: (100% / 12) * $columns;
-  }
-  .grid-wrapper {
-    text-align: center;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-  }
-
-  .grid-items {
-    $grid-items-background: transparent;
-    $grid-item-color: #E1E1D6;
-    $grid-item-border-size: 9px;
-    $grid-item-columns: 4;
-    $grid-item-big-columns: 8;
-    $grid-item-color: black;
-    $grid-item-height: 14em;
-    $border-top-color:
-      #002554,
-      #415635,
-      #74BBFB,
-      #056693,
-      #F4812A,
-      #000000,
-      #DA291C;
-
-    @include clearfix;
-
-    .grid-item {
-      @include transition (all 0.2s ease-in-out);
-      height: $grid-item-height;
-      width: 100%;
-      overflow: hidden;
-      float: left;
-      padding: 2em;
-      background-color: $grid-background-color;
-      border-top: $grid-item-border-size;
-      border-bottom: $grid-item-border-size solid $grid-items-background;
-      border-left: $grid-item-border-size /2 solid $grid-items-background;
-      border-right: $grid-item-border-size /2 solid $grid-items-background;
-      text-align: center;
-      cursor: pointer;
-
-      @include media($large-screen) {
-        @include grid-item-columns($grid-item-columns);
-      }
-
-      @for $i from 1 to 8 {
-        &:nth-child(#{$i}) {
-          $border-from-list: nth($border-top-color, $i);
-
-            border-top-color: $border-from-list;
-            box-shadow: inset 0px 0px 1px 2px $grid-box-shadow-color;
-            background-clip: padding-box;
-
-        &:hover {
-            box-shadow: inset 0px 0px 4px 4px $grid-box-shadow-color;
-            }
-          }
-        }
-     }
-
-  .grid-item img {
-      display: block;
-      height: 3em;
-      margin: auto;
-      margin-bottom: 1em;
-    }
-
-  .grid-item h1 {
-      color: $grid-item-color;
-      font-size: 1.3em;
-      margin-bottom: .4em;
-    }
-
-  .grid-item p {
-      margin: auto;
-      color: transparentize($grid-item-color, .3);
-      @include media($medium-screen) {
-        max-width: 70%;
-      }
-    }
-
-  .grid-item-big {
     @include media($large-screen) {
-      @include grid-item-columns($grid-item-big-columns);
-    }
-    p {
-      @include media($medium-screen) {
-        max-width: 60%;
-      }
+      font-size: 4em;
     }
   }
 
-  .grid-item-image {
-    background-color: $grid-title-text-color;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
+  h2 {
+    font-style: sans-serif;
+    font-size: 1.3em;
+
+    a {
+      color: $flex-boxes-title-text-color2;
+
+      &:hover{
+        color: $flex-boxes-title-text-color2-hover;
+      }
+    }
   }
 }
+
+.flex-boxes-wrapper {
+     text-align: center;
+     max-width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 1em 0 4em;
+}
+
+.flex-boxes {
+  @include clearfix;
+  @include display(flex);
+  @include justify-content(center);
+  @include align-items(stretch);
+  @include flex-wrap(wrap);
+}
+
+.flex-box {
+  @include transition (all 0.2s ease-in-out);
+  @include flex(2 2 15em);
+  @include align-self(stretch);
+  display: block;
+  box-shadow: inset 0 0 1px $flex-box-border-color, 0 2px 4px darken($base-background-color, 10);
+  border-radius: $base-border-radius;
+  margin: $flex-box-gutter;
+  padding: 2em 2em 3em 2em;
+  background: $flex-box-background;
+
+  @for $i from 1 to 7 { // assign colors from $flex-box-top-colors list
+    &:nth-child(#{$i}) {
+      $color-from-list: nth($flex-box-top-colors, $i);
+      border-top: 8px solid $color-from-list;
+
+      &:hover {
+        background: transparentize($color-from-list, .7);
+        box-shadow: 0 2px 4px transparentize($color-from-list, .7);
+      }
+    }
+  }
+}
+
+.flex-box img {
+  display: block;
+  opacity: .4;
+  height: 3em;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+.flex-box .flex-title {
+  color: $flex-box-font-color;
+  font-family: $sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-bottom: .5em;
+}
+
+.flex-box p {
+  margin: auto;
+  line-height: 1.5em;
+  color: transparentize($flex-box-font-color, .1);
+}
+
+.flex-box-big {
+  @include flex(1 1 40em);
 }
 
 //
 // Footer Toolbar
 //
 
-.wrapper-for-content-outside-of-footer {
-    min-height: 100%;
-    height: auto !important;
-    height: 100%;
-    margin: 0 auto -7em;
-}
-
-html, body {
-    height: 100%;
-    margin:0;
-}
-
-.footer, .push {
-    height: 17em;
-
-    @include media($large-screen) {
-        height: 7em;
-    }
-}
-
 .footer {
-  $footer-background-color: #004489;
-  $footer-border-color: #004489;
-  $footer-color: #E1E1D6;
-  $footer-link-color: transparentize($footer-color, .6);
-  $base-spacing: 1.5em;
+  $footer-background-color: transparentize(#004489, .3);
+  $footer-background-color-hover: transparentize(#FFFFFF, .9);
+  $footer-font-color: transparentize(#000000, .3);
+  $footer-font-color-hover: #000000;
 
   background: $footer-background-color;
-  padding: $base-spacing;
+  padding-bottom: 1.5em;
   width: 100%;
-  border-top: 2px solid darken(transparentize($footer-border-color, .2), 30);
-  border-bottom: 2px solid darken(transparentize($footer-border-color, .2), 30);
+  height: 100%;
+  border-top: 2px solid darken($footer-background-color, 6);
+  border-bottom: 2px solid darken($footer-background-color, 6);
 
-  ul {
+  ul.footer-top-link {
     text-align: center;
-  }
-
-  ul li {
-    padding-right: 1em;
-    font-weight: 600;
-
-    &:first-child {
-          padding-left: 1em;
-      }
-
-    @include media($large-screen) {
-      display: inline;
-      text-align: left;
-    }
-  }
-
-  ul li a {
-    color: $footer-link-color;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
 
     &:hover {
-      color: transparentize($footer-color, 0);
+      color: $footer-font-color-hover;
+      background: $footer-background-color-hover;
+      a li {
+        color: $footer-font-color-hover;
+      }
+    }
+
+    a li {
+      color: $footer-font-color;
+      font-size: 1em;
+      font-weight: 700;
+
+      i {
+        font-size:1.5em;
+      }
     }
   }
 
-  .footer-secondary-links {
-
-    ul.footer-social {
-      margin-top: 0.5em;
-    }
+  ul.footer-nav-links {
+    padding-top: 0.5em;
+    text-align: center;
 
     li {
-      font-size: 1.5em;
+      padding-right: 1em;
+      font-size: 2em;
+      font-weight: 700;
 
       &:first-child {
-          padding-left: 1em;
+        padding-left: 1em;
+      }
+
+      @include media($large-screen) {
+        display: inline;
+        text-align: left;
+      }
+
+      a {
+        color: $footer-font-color;
+
+        &:hover {
+          color: $footer-font-color-hover;
+        }
       }
     }
   }
