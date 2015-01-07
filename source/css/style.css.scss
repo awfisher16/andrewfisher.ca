@@ -4,7 +4,7 @@
 // General Variables
 //
 
-$large-screen: 260px;
+$large-screen: 800px;
 $medium-screen: 150px;
 
 html, body {
@@ -21,13 +21,13 @@ html, body {
   $header-image: '/img/Header_Image.jpg';
   $header-background-color: #565656;
   $header-border-color: #565656;
-  $header-font-color: black;
+  $header-font-color: #E1E1D6;
 
   @include background-image(url($header-image));
 
   background-color: $header-background-color;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: bottom;
   display: block;
   background-size: cover;
   padding-bottom: 4em;
@@ -74,8 +74,8 @@ html, body {
 .centered-navigation {
   $nav-padding: 1em;
   $nav-logo-height: 2em;
-  $nav-background: transparentize(#004489, .3);
-  $nav-font-color: transparentize(#000000, .3);
+  $nav-background: transparentize(#FFFFFF, .6);
+  $nav-font-color: transparentize(#000000, .4);
   $nav-font-color-hover: #000000;
   $nav-height: 60px;
   $nav-item-padding: 1em;
@@ -85,11 +85,10 @@ html, body {
   $horizontal-bar-mode: $large-screen;
 
   background-color: $nav-background;
-  border-top: 1px solid darken($nav-background, 6);
-  border-bottom: 1px solid darken($nav-background, 6);
+  border: 1px solid darken($nav-background, 6);
   height: $nav-height;
-  width: 100%;
-  z-index: 9999;
+  margin: auto;
+  z-index: 999;
 
 // Nav menu
 
@@ -168,12 +167,17 @@ html, body {
 // Image Message
 //
 
-$side-image: '/img/Profile_Photo.jpg';
-$side-image-pic-background: #565656;
+$side-image: '/img/Profile_Photo_2.jpg';
+$side-image-pic-background: #E1E1D6;
 $side-image-text-background: #E1E1D6;
 $side-image-text-color-1: #565656;
 $side-image-text-color-2: #004489;
 $side-image-border-color: #565656;
+
+$side-image-bullet-color1: lighten(#415635, 10%);
+$side-image-bullet-color2: #74BBFB;
+$side-image-bullet-color3: #F4812A;
+$side-image-bullet-text-color: #000000;
 
 .side-image {
   background: $side-image-text-background;
@@ -185,15 +189,15 @@ $side-image-border-color: #565656;
   .images-wrapper {
     @include background-image(url($side-image));
     background-color: $side-image-pic-background;
-    background-size: cover;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    border: solid $side-image-pic-background;
+    border-width: 40px 0 40px;
     display: block;
-    min-height: 12em;
-    padding: 3em;
 
     @include media($large-screen) {
-      @include span-columns(4);
-      background-position: bottom;
-      background-size: cover;
+      @include span-columns(3);
+      background-position: right;
     }
   }
 
@@ -215,6 +219,14 @@ $side-image-border-color: #565656;
   .introduction p {
     color: $side-image-text-color-1;
     margin-bottom: 3em;
+
+    a {
+      color: $side-image-text-color-2;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
   }
 
   @include reset-display();
@@ -265,23 +277,29 @@ h2 {
 
   .bullet-icon {
     float: left;
-    background: $base-accent-color;
+    background: $side-image-text-background;
     padding: $icon-bullet-size /4;
     border-radius: 50%;
     width: $icon-bullet-size;
     height: $icon-bullet-size;
+
+    i{
+      text-align: center;
+      font-size: 1.5em;
+      color: $side-image-bullet-text-color;
+    }
   }
 
   .bullet-icon-1 {
-    background: $base-accent-color;
+    background: $side-image-bullet-color1;
   }
 
   .bullet-icon-2 {
-    background: adjust-hue($base-accent-color, -50);
+    background: $side-image-bullet-color2;
   }
 
   .bullet-icon-3 {
-    background: adjust-hue($base-accent-color, -140);
+    background: $side-image-bullet-color3;
   }
 
   .bullet-content {
@@ -295,25 +313,23 @@ h2 {
 // Grid of Experience
 //
 
-$flex-boxes-background-color1: #989898;
-$flex-boxes-background-color2: #565656;
-$flex-boxes-background-color3: #D3D9DF;
+$flex-boxes-background-color: #989898;
 $flex-boxes-background-border-color: #565656;
 $flex-boxes-background-border: 2px solid darken(transparentize($flex-boxes-background-border-color, .2), 30);
 
 $flex-boxes-title-text-color1: #000000;
-$flex-boxes-title-text-color2: transparentize(#000000, .3);
+$flex-boxes-title-text-color2: transparentize(#000000, .5);
 $flex-boxes-title-text-color2-hover: #000000;
 
 $flex-box-border-color: #565656;
 $flex-box-border: 1px solid $flex-box-border-color;
 $flex-box-background: #D3D9DF;
-$flex-box-gutter: .4em;
+$flex-box-gutter: .6em;
 $flex-box-width: 18em;
 $flex-box-color: transparentize(#565656, .05);
 $flex-box-top-colors:
   #002554,
-  #415635,
+  lighten(#415635, 10%),
   #74BBFB,
   #056693,
   #F4812A,
@@ -321,13 +337,7 @@ $flex-box-top-colors:
 $flex-box-font-color: #565656;
 
 .info {
-  background:
-    radial-gradient($flex-boxes-background-color2, transparent 16%) 0 0,
-    radial-gradient($flex-boxes-background-color2, transparent 16%) 8px 8px,
-    radial-gradient($flex-boxes-background-color3, transparent 20%) 0 1px,
-    radial-gradient($flex-boxes-background-color3, transparent 20%) 8px 9px;
-  background-color:$flex-boxes-background-color1;
-  background-size:16px 16px;
+  background-color:$flex-boxes-background-color;
   border-top: $flex-boxes-background-border;
   padding-top: 1em;
 }
@@ -355,6 +365,7 @@ $flex-box-font-color: #565656;
 
       &:hover{
         color: $flex-boxes-title-text-color2-hover;
+        text-decoration: underline;
       }
     }
   }
@@ -365,7 +376,7 @@ $flex-box-font-color: #565656;
      max-width: 80%;
      margin-left: auto;
      margin-right: auto;
-     padding: 1em 0 4em;
+     padding: 1em 0 5em;
 }
 
 .flex-boxes {
@@ -429,8 +440,7 @@ $flex-box-font-color: #565656;
 //
 
 .footer {
-  $footer-background-color: transparentize(#004489, .3);
-  $footer-background-color-hover: transparentize(#FFFFFF, .9);
+  $footer-background-color: #565656;
   $footer-font-color: transparentize(#000000, .3);
   $footer-font-color-hover: #000000;
 
@@ -443,16 +453,7 @@ $flex-box-font-color: #565656;
 
   ul.footer-top-link {
     text-align: center;
-    padding-top: 1.5em;
-    padding-bottom: 1em;
-
-    &:hover {
-      color: $footer-font-color-hover;
-      background: $footer-background-color-hover;
-      a li {
-        color: $footer-font-color-hover;
-      }
-    }
+    padding: 1.5em 0 0.5em;
 
     a li {
       color: $footer-font-color;
@@ -466,7 +467,7 @@ $flex-box-font-color: #565656;
   }
 
   ul.footer-nav-links {
-    padding-top: 0.5em;
+    padding-top: 2em;
     text-align: center;
 
     li {

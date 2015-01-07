@@ -4,12 +4,44 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"footer",
+				"footer-background-color"
+			],
+			[
+				"footer-",
+				"footer-font-color-hover"
+			],
+			[
+				"text-c",
+				"flex-boxes-title-text-color"
+			],
+			[
+				"flex-boxes",
+				"flex-boxes-background-color3"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"grid-item-b",
+				"grid-item-border-size"
+			],
+			[
 				"background-",
-				"background-image"
+				"background-position"
 			],
 			[
 				"background",
-				"background-clip"
+				"background-position"
 			],
 			[
 				"back",
@@ -22,10 +54,6 @@
 			[
 				"grid",
 				"grid-background"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"wh",
@@ -42,10 +70,6 @@
 			[
 				"in",
 				"inline"
-			],
-			[
-				"font",
-				"font-size"
 			]
 		]
 	},
@@ -55,25 +79,15 @@
 			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 10123,
+				"buffer_size": 9306,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n",
-			"settings":
-			{
-				"buffer_size": 2331,
-				"line_ending": "Unix",
-				"name": "Package Control Messages",
-				"scratch": true
 			}
 		},
 		{
 			"file": "source/css/style.css.scss",
 			"settings":
 			{
-				"buffer_size": 10426,
+				"buffer_size": 9808,
 				"line_ending": "Windows"
 			}
 		},
@@ -142,6 +156,7 @@
 	},
 	"file_history":
 	[
+		"/C/www/andrewfisher.ca/source/js/all.js",
 		"/C/www/andrewfisher.ca/README.md",
 		"/C/www/andrewfisher.ca/source/index.html",
 		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV_2.0.html",
@@ -155,7 +170,6 @@
 		"/C/www/andrewfisher.ca/source/css/_base.scss",
 		"/C/www/andrewfisher.ca/source/css/style.css.scss",
 		"/C/www/andrewfisher.ca/source/css/_functions.scss",
-		"/C/www/andrewfisher.ca/source/js/all.js",
 		"/Z/Desktop/stargate.ovpn",
 		"/C/Program Files (x86)/Adobe/Acrobat 8.0/Setup Files/{AC76BA86-1033-0000-7760-000000000003}/Data1.cab",
 		"/Z/Documents/University of Toronto/Thesis/Materials/Harris Steel/Couping Tests/15M/andrew 15mm--#2 oct--1 2014.dat",
@@ -223,6 +237,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			");\n",
+			";\n",
+			"$i",
+			"fff",
+			"str",
+			"slice",
 			"base",
 			"colour",
 			"more",
@@ -302,15 +322,15 @@
 					"file": "source/index.html",
 					"settings":
 					{
-						"buffer_size": 10123,
+						"buffer_size": 9306,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5861,
-								5861
+								8175,
+								8175
 							]
 						],
 						"settings":
@@ -320,51 +340,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 666.0,
+						"translation.y": 1482.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"settings":
-					{
-						"buffer_size": 2331,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1218,
-								1218
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "source/css/style.css.scss",
 					"settings":
 					{
-						"buffer_size": 10426,
+						"buffer_size": 9808,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8109,
-								8109
+								7162,
+								7162
 							]
 						],
 						"settings":
@@ -375,13 +369,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6318.0,
+						"translation.y": 6574.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "source/css/_base.scss",
 					"settings":
 					{
@@ -407,7 +401,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "source/css/_functions.scss",
 					"settings":
 					{
