@@ -321,8 +321,7 @@ $flex-boxes-title-text-color1: #000000;
 $flex-boxes-title-text-color2: transparentize(#000000, .5);
 $flex-boxes-title-text-color2-hover: #000000;
 
-$flex-box-border-color: #565656;
-$flex-box-border: 1px solid $flex-box-border-color;
+$flex-box-shadow-color: #565656;
 $flex-box-background: #D3D9DF;
 $flex-box-gutter: .6em;
 $flex-box-width: 18em;
@@ -392,7 +391,7 @@ $flex-box-font-color: #565656;
   @include flex(2 2 15em);
   @include align-self(stretch);
   display: block;
-  box-shadow: inset 0 0 1px $flex-box-border-color, 0 2px 4px darken($base-background-color, 10);
+  //box-shadow: inset 0 0 1px $flex-box-border-color, 0 2px 4px darken($base-background-color, 10);
   border-radius: $base-border-radius;
   margin: $flex-box-gutter;
   padding: 2em 2em 3em 2em;
@@ -404,7 +403,7 @@ $flex-box-font-color: #565656;
       border-top: 8px solid $color-from-list;
 
       &:hover {
-        box-shadow: inset 0 0 10px 3px transparentize($color-from-list, .3), 0 2px 4px transparentize($color-from-list, .3);
+        box-shadow: 0 0 0 3px transparentize($flex-box-shadow-color, .3);
       }
     }
   }
@@ -455,7 +454,7 @@ $flex-box-font-color: #565656;
     text-align: center;
     padding: 1.5em 0 0.5em;
 
-    a li {
+    a {
       color: $footer-font-color;
       font-size: 1em;
       font-weight: 700;
