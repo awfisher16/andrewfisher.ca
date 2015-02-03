@@ -4,8 +4,9 @@
 // General Variables
 //
 
-$large-screen: 800px;
-$medium-screen: 150px;
+$large-screen: 1224px;
+$medium-screen: 768px;
+$small-screen: 320px;
 
 html, body {
     height: 100%;
@@ -80,7 +81,6 @@ html, body {
   $nav-height: 60px;
   $nav-item-padding: 1em;
   $nav-submenu-padding: 1em;
-  $nav-submenu-width: 12em;
   $nav-item-nudge: 2.2em;
   $horizontal-bar-mode: $large-screen;
 
@@ -106,7 +106,7 @@ html, body {
 
     clear: both;
     display: none;
-    margin: 0 auto;
+    margin: auto;
     overflow: visible;
     padding: 0;
     width: 100%;
@@ -190,18 +190,24 @@ $side-image-bullet-text-color: #000000;
     padding: 4em 4em 1em 4em;
     margin:auto;
 
-
     @include media($large-screen) {
-      width: calc(2/3*100%);
+      width: calc(55%);
       padding: 4em 4em 4em 4em;
       margin: auto;
     }
 
     img {
-      width: 20%;
       display: inline-block;
       float:left;
-      padding-right: 2em;
+      padding-right: 1em;
+      padding-bottom: 0.5em;
+      height: 300px;
+      width: auto;
+
+      @include media($large-screen) {
+        max-width: 25%;
+        height: auto;
+      }
     }
   }
 
@@ -447,8 +453,8 @@ $flex-box-font-color: #565656;
   padding-bottom: 1.5em;
   width: 100%;
   height: 100%;
-  border-top: 2px solid darken($footer-background-color, 6);
-  border-bottom: 2px solid darken($footer-background-color, 6);
+  border-top: 2px solid darken($footer-background-color, 10);
+  border-bottom: 2px solid darken($footer-background-color, 10);
 
   ul.footer-top-link {
     text-align: center;

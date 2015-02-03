@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"side-image",
+				"side-image-pic-background"
+			],
+			[
 				"marg",
 				"margin"
 			],
@@ -91,7 +95,7 @@
 			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 9273,
+				"buffer_size": 9258,
 				"line_ending": "Windows"
 			}
 		},
@@ -99,7 +103,7 @@
 			"file": "source/css/style.css.scss",
 			"settings":
 			{
-				"buffer_size": 9440,
+				"buffer_size": 9573,
 				"line_ending": "Windows"
 			}
 		},
@@ -168,6 +172,8 @@
 	},
 	"file_history":
 	[
+		"/C/Program Files/OpenVPN/config/ca.crt",
+		"/C/Program Files/OpenVPN/config/andrew-desktop.crt",
 		"/C/www/andrewfisher.ca/source/js/all.js",
 		"/C/www/andrewfisher.ca/README.md",
 		"/C/www/andrewfisher.ca/source/index.html",
@@ -249,6 +255,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"submenu-width",
+			"sub",
 			";\n",
 			");\n",
 			";\n",
@@ -335,15 +343,15 @@
 					"file": "source/index.html",
 					"settings":
 					{
-						"buffer_size": 9273,
+						"buffer_size": 9258,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2496,
-								2496
+								7227,
+								7227
 							]
 						],
 						"settings":
@@ -353,7 +361,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 722.0,
+						"translation.y": 1570.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -363,15 +371,15 @@
 					"file": "source/css/style.css.scss",
 					"settings":
 					{
-						"buffer_size": 9440,
+						"buffer_size": 9573,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2889,
-								2889
+								7028,
+								7028
 							]
 						],
 						"settings":
@@ -382,7 +390,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2242.0,
+						"translation.y": 2543.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
