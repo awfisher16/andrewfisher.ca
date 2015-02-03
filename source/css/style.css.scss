@@ -47,8 +47,12 @@ html, body {
       text-align: center;
 
       h1 {
-        font-size: 1.6em;
+        font-size: 2.5em;
         margin-bottom: .5em;
+
+        @include media($medium-screen) {
+          font-size: 4em;
+        }
 
         @include media($large-screen) {
           font-size: 6em;
@@ -58,7 +62,11 @@ html, body {
       h2 {
         margin: auto;
         margin-bottom: .5em;
-        line-height: 1.4em;
+        font-size: 1.5em;
+
+        @include media($medium-screen) {
+          font-size: 2em;
+        }
 
         @include media($large-screen) {
           font-size: 3em;
@@ -82,11 +90,9 @@ html, body {
   $nav-item-padding: 1em;
   $nav-submenu-padding: 1em;
   $nav-item-nudge: 2.2em;
-  $horizontal-bar-mode: $large-screen;
 
   background-color: $nav-background;
   border: 1px solid darken($nav-background, 6);
-  height: $nav-height;
   margin: auto;
   z-index: 999;
 
@@ -106,52 +112,73 @@ html, body {
 
     clear: both;
     display: none;
-    margin: auto;
+    margin: 0 auto;
     overflow: visible;
     padding: 0;
     width: 100%;
     z-index: 99999;
 
-    @include media ($horizontal-bar-mode) {
+    &.show {
+      display: block;
+    }
+
+    @include media ($medium-screen, $large-screen) {
       display: block;
       text-align: center;
     }
   }
 
+//mobile view
+
+ul.centered-navigation-menu-mobile {
+  display: block;
+  text-align: center;
+  padding: 0.5em 0;
+  .nav-link {
+    padding: 0.25em 0;
+  }
+
+  @include media ($medium-screen, $large-screen) {
+      display: none;
+  }
+}
 
 // The nav items
 
   .nav-link:first-child {
-    @include media($horizontal-bar-mode) {
+    @include media($medium-screen, $large-screen) {
       margin-left: $nav-item-nudge;
     }
   }
 
   ul li.nav-link {
-    background: $nav-background;
     display: block;
-    line-height: $nav-height;
+    line-height: auto;
     overflow: hidden;
-    padding-right: $nav-submenu-padding;
-    text-align: right;
+    text-align: center;
     width: 100%;
     z-index: 9999;
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: 700;
 
-    @include media($horizontal-bar-mode) {
-      background: transparent;
+    @include media($medium-screen) {
       display: inline;
       line-height: $nav-height;
+      text-align: right;
+      padding-right: $nav-submenu-padding;
+      font-size: 1.25em;
+    }
+
+    @include media($large-screen){
+      font-size: 1.5em;
+    }
 
     a {
-        padding-right: $nav-item-padding;
-        color: $nav-font-color;
-        display: inline-block;
+      padding-right: $nav-item-padding;
+      color: $nav-font-color;
 
-        &:hover {
-          color: $nav-font-color-hover;
-        }
+      &:hover {
+        color: $nav-font-color-hover;
       }
     }
   }
@@ -181,7 +208,7 @@ $side-image-bullet-text-color: #000000;
 .side-image {
   background: $side-image-text-background;
 
-  @include media($large-screen) {
+  @include media($medium-screen, $large-screen) {
     @include row(table);
   }
 
@@ -190,31 +217,46 @@ $side-image-bullet-text-color: #000000;
     padding: 4em 4em 1em 4em;
     margin:auto;
 
-    @include media($large-screen) {
-      width: calc(55%);
+    @include media($medium-screen) {
+      width: 90%;
       padding: 4em 4em 4em 4em;
       margin: auto;
     }
 
+    @include media($large-screen) {
+      width: 2/3*100%;
+    }
+
     img {
-      display: inline-block;
-      float:left;
+      display: block;
       padding-right: 1em;
       padding-bottom: 0.5em;
       height: 300px;
       width: auto;
+      margin: auto;
+
+      @include media($medium-screen) {
+        display: inline-block;
+        float:left;
+        height: 400px;
+        width: auto;
+        padding-right: 2em;
+      }
 
       @include media($large-screen) {
-        max-width: 25%;
-        height: auto;
+        height: 500px;
       }
     }
   }
 
   .introduction h1 {
-    margin-bottom: .9em;
-  }
+    margin-bottom: 0.5em;
+    text-align: center;
 
+    @include media($medium-screen, $large-screen) {
+      text-align: left;
+    }
+  }
 
   .introduction p {
     color: $side-image-text-color-1;
@@ -236,25 +278,31 @@ $side-image-bullet-text-color: #000000;
 // Bullet Images
 //
 
-.bullets {
-  $icon-bullet-size: 3.5em;
+$icon-bullet-size: 2.5em;
+$screen-multiplier: 1.5;
 
+.bullets {
   clear:both;
   overflow: auto;
   @include outer-container;
-  padding-top: 1em;
 
   @include media($large-screen) {
     padding-top: 4em;
   }
 
 h2 {
-    font-size: $icon-bullet-size /2.5;
-    padding-top: $icon-bullet-size /7;
-    margin-bottom: $icon-bullet-size /6;
     border-bottom: 1px solid transparentize($side-image-text-color-1, .8);
     display: inline-block;
     color: $side-image-text-color-2;
+    font-size: $icon-bullet-size /2.5;
+    padding-top: $icon-bullet-size /7;
+    margin-bottom: $icon-bullet-size /6;
+
+    @include media($medium-screen, $large-screen) {
+      font-size: $icon-bullet-size*$screen-multiplier /2.5;
+      padding-top: $icon-bullet-size*$screen-multiplier /7;
+      margin-bottom: $icon-bullet-size*$screen-multiplier /6;
+    }
   }
 
 // change to this for two bullet layout
@@ -284,15 +332,25 @@ h2 {
   .bullet-icon {
     float: left;
     background: $side-image-text-background;
-    padding: $icon-bullet-size /4;
     border-radius: 50%;
+    padding: $icon-bullet-size/4;
     width: $icon-bullet-size;
     height: $icon-bullet-size;
 
     i{
-      text-align: center;
-      font-size: 1.5em;
+      font-size: $icon-bullet-size/2.1;
       color: $side-image-bullet-text-color;
+    }
+
+    @include media($medium-screen, $large-screen) {
+      padding: $icon-bullet-size*$screen-multiplier/4;
+      width: $icon-bullet-size*$screen-multiplier;
+      height: $icon-bullet-size*$screen-multiplier;
+
+      i{
+        font-size: $icon-bullet-size*$screen-multiplier/2.1;
+        color: $side-image-bullet-text-color;
+      }
     }
   }
 
@@ -312,6 +370,10 @@ h2 {
     margin-left: $icon-bullet-size *1.4;
     margin-bottom: 2em;
     color: $side-image-text-color-2;
+
+    @include media($medium-screen, $large-screen) {
+      margin-left: $icon-bullet-size*$screen-multiplier*1.4;
+    }
   }
 }
 
@@ -377,11 +439,15 @@ $flex-box-font-color: #565656;
 }
 
 .flex-boxes-wrapper {
-     text-align: center;
-     max-width: 80%;
-     margin-left: auto;
-     margin-right: auto;
-     padding: 1em 0 5em;
+  text-align: center;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 0 5em;
+
+  @include media($large-screen) {
+    width: 55%;
+  }
 }
 
 .flex-boxes {
@@ -437,7 +503,7 @@ $flex-box-font-color: #565656;
 }
 
 .flex-box-big {
-  @include flex(1 1 40em);
+  @include flex(1 1 30em);
 }
 
 //

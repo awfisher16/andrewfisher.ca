@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"nav-i",
+				"nav-item-padding"
+			],
+			[
 				"side-image",
 				"side-image-pic-background"
 			],
@@ -95,7 +99,7 @@
 			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 9258,
+				"buffer_size": 10255,
 				"line_ending": "Windows"
 			}
 		},
@@ -103,7 +107,7 @@
 			"file": "source/css/style.css.scss",
 			"settings":
 			{
-				"buffer_size": 9573,
+				"buffer_size": 11021,
 				"line_ending": "Windows"
 			}
 		},
@@ -255,6 +259,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"large-screen",
 			"submenu-width",
 			"sub",
 			";\n",
@@ -343,15 +348,15 @@
 					"file": "source/index.html",
 					"settings":
 					{
-						"buffer_size": 9258,
+						"buffer_size": 10255,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7227,
-								7227
+								8876,
+								8876
 							]
 						],
 						"settings":
@@ -361,7 +366,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1570.0,
+						"translation.y": 1056.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -371,15 +376,15 @@
 					"file": "source/css/style.css.scss",
 					"settings":
 					{
-						"buffer_size": 9573,
+						"buffer_size": 11021,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7028,
-								7028
+								6453,
+								6453
 							]
 						],
 						"settings":
@@ -390,7 +395,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2543.0,
+						"translation.y": 5886.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
