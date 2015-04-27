@@ -4,16 +4,44 @@
 		"selected_items":
 		[
 			[
+				"flex-box-",
+				"flex-box-top-colors"
+			],
+			[
+				"dar",
+				"darkbrown"
+			],
+			[
+				"intro-text",
+				"intro-text-header-colour"
+			],
+			[
+				"table-c",
+				"table-cell"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"t",
+				"table-cell"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
 				"nav-i",
 				"nav-item-padding"
 			],
 			[
 				"side-image",
 				"side-image-pic-background"
-			],
-			[
-				"marg",
-				"margin"
 			],
 			[
 				"margi",
@@ -72,10 +100,6 @@
 				"background-clip"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
 				"grid",
 				"grid-background"
 			],
@@ -99,7 +123,7 @@
 			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 10255,
+				"buffer_size": 8972,
 				"line_ending": "Windows"
 			}
 		},
@@ -107,7 +131,7 @@
 			"file": "source/css/style.css.scss",
 			"settings":
 			{
-				"buffer_size": 11021,
+				"buffer_size": 10438,
 				"line_ending": "Windows"
 			}
 		},
@@ -176,12 +200,14 @@
 	},
 	"file_history":
 	[
+		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV_2.0.html",
+		"/Z/Documents/University of Toronto/Scholarships/2015/The Vivekananda Graduate Prize (OSOTF).html",
+		"/Z/Documents/Personal Documents/Employment/Resumes/PEO Resume/Andrew_Fisher_PEO_GLC_Resume.html",
 		"/C/Program Files/OpenVPN/config/ca.crt",
 		"/C/Program Files/OpenVPN/config/andrew-desktop.crt",
 		"/C/www/andrewfisher.ca/source/js/all.js",
 		"/C/www/andrewfisher.ca/README.md",
 		"/C/www/andrewfisher.ca/source/index.html",
-		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV_2.0.html",
 		"/Z/Documents/Personal Documents/Employment/Resumes/TA Resume/Andrew_Fisher_Resume_APS112.html",
 		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/S13/Andrew_Fisher_Resume_Delcan (Kitchener).html",
 		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/W13/Andrew_Fisher_Resume_CFES.html",
@@ -259,6 +285,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"bio",
+			"side-image",
 			"large-screen",
 			"submenu-width",
 			"sub",
@@ -340,7 +368,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -348,15 +376,15 @@
 					"file": "source/index.html",
 					"settings":
 					{
-						"buffer_size": 10255,
+						"buffer_size": 8972,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8876,
-								8876
+								7593,
+								7593
 							]
 						],
 						"settings":
@@ -366,7 +394,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1056.0,
+						"translation.y": 1830.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -376,15 +404,15 @@
 					"file": "source/css/style.css.scss",
 					"settings":
 					{
-						"buffer_size": 11021,
+						"buffer_size": 10438,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6453,
-								6453
+								8406,
+								8406
 							]
 						],
 						"settings":
@@ -395,7 +423,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5886.0,
+						"translation.y": 7830.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
