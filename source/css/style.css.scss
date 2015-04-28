@@ -4,11 +4,11 @@
 // General Variables
 //
 
-$cream: #EDEAE1;
-$lightbrown: #292621;
-$darkbrown: #181715;
-$greybrown: #2F2C27;
-$green: #A8D10F;
+$cream: #EDEAE1;      //RGB(237, 234, 225)
+$lightbrown: #292621; //RGB(41, 38, 33)
+$darkbrown: #181715;  //RGB(24, 23, 21)
+$greybrown: #2F2C27;  //RGB(47, 44, 39)
+$green: #A8D10F;      //RGB(168, 209, 15)
 
 $large-screen: 1224px;
 $medium-screen: 768px;
@@ -330,7 +330,7 @@ $screen-multiplier: 1.5;
 
   .bullet-icon {
     float: left;
-    background: $intro-text-background;
+    background: $intro-bullet-color;
     border-radius: 50%;
     padding: $icon-bullet-size/4;
     width: $icon-bullet-size;
@@ -351,18 +351,6 @@ $screen-multiplier: 1.5;
         color: $intro-bullet-image-color;
       }
     }
-  }
-
-  .bullet-icon-1 {
-    background: $intro-bullet-color;
-  }
-
-  .bullet-icon-2 {
-    background: $intro-bullet-color;
-  }
-
-  .bullet-icon-3 {
-    background: $intro-bullet-color;
   }
 
   .bullet-content {
@@ -386,13 +374,21 @@ $flex-boxes-title-text-color1: $darkbrown;
 $flex-boxes-title-text-color2: $lightbrown;
 $flex-boxes-title-text-color2-hover: $cream;
 
-$flex-box-shadow-color: $darkbrown;
-$flex-box-background: $cream;
 $flex-box-gutter: .6em;
 $flex-box-width: 18em;
-$flex-box-color: $cream;
-$flex-box-top-color: $lightbrown;
-$flex-box-font-color: $darkbrown;
+$flex-box-background: $green;
+$flex-box-hover-background: $cream;
+$flex-box-top-color: $darkbrown;
+$flex-box-top-hover-color: $lightbrown;
+$flex-box-font-color: $cream;
+$flex-box-font-hover-color: $darkbrown;
+
+$flex-box-background-images:
+  '/img/Structural.jpg',
+  '/img/Bridges.jpg',
+  '/img/Wind.jpg',
+  '/img/Land.jpg',
+  '/img/Testing.jpg';
 
 .info {
   background-color:$flex-boxes-background-color;
@@ -438,55 +434,100 @@ $flex-box-font-color: $darkbrown;
   @include media($large-screen) {
     width: 2/3*100%;
   }
-}
 
-.flex-boxes {
+  .flex-boxes {
   @include clearfix;
   @include display(flex);
   @include justify-content(center);
   @include align-items(stretch);
   @include flex-wrap(wrap);
-}
 
-.flex-box {
-  @include transition (all 0.2s ease-in-out);
-  @include flex(2 2 15em);
-  @include align-self(stretch);
-  display: block;
-  border-radius: $base-border-radius;
-  margin: $flex-box-gutter;
-  padding: 2em 2em 3em 2em;
-  background: $flex-box-background;
-  border-top: 8px solid $flex-box-top-color;
+    .flex-box {
+      @include flex(2 2 15em);
+      @include align-self(stretch);
+      display: block;
+      border-radius: $base-border-radius;
+      margin: $flex-box-gutter;
+      padding: 2em 2em 3em 2em;
+      border-top: 8px solid $flex-box-top-color;
 
-  &:hover {
-    box-shadow: 0 0 0 3px transparentize($flex-box-shadow-color, .3);
+      background: $flex-box-background;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      @for $i from 1 to 6 {
+        // assign images from $flex-box-background-images list
+        &:nth-child(#{$i}) {
+          $image-from-list: nth($flex-box-background-images, $i);
+          @include background-image(
+            linear-gradient(
+              transparentize($darkbrown,0.25) 0,
+              transparentize($darkbrown,0.25) 100%
+              ),
+            url($image-from-list)
+          );
+        }
+      }
+
+      .flex-title {
+        color: $flex-box-font-color;
+        font-family: $sans-serif;
+        font-weight: 700;
+        font-size: 1.5em;
+        margin-bottom: .5em;
+      }
+
+      img {
+        display: block;
+        max-height: 4em;
+        margin: auto;
+        margin-bottom: 2em;
+        visibility: hidden
+      }
+
+      p {
+        margin: auto;
+        line-height: 1.5em;
+        color: $flex-box-font-hover-color;
+        visibility: hidden;
+      }
+
+      &:hover {
+        border-top: 8px solid $flex-box-top-hover-color;
+
+        @for $i from 1 to 6 {
+        // assign images from $flex-box-background-images list
+          &:nth-child(#{$i}) {
+            $image-from-list: nth($flex-box-background-images, $i);
+            @include background-image(
+              linear-gradient(
+                transparentize($cream,0.25) 0,
+                transparentize($cream,0.25) 100%
+              ),
+              url($image-from-list)
+            );
+          }
+        }
+
+        .flex-title{
+          color: $flex-box-font-hover-color;
+        }
+
+        img{
+          visibility: visible;
+        }
+
+        p{
+          visibility: visible;
+        }
+      }
+    }
+
+    .flex-box-big {
+      @include flex(1 1 30em);
+    }
   }
-}
-
-.flex-box img {
-  display: block;
-  max-height: 4em;
-  margin: auto;
-  margin-bottom: 2em;
-}
-
-.flex-box .flex-title {
-  color: $flex-box-font-color;
-  font-family: $sans-serif;
-  font-weight: 700;
-  font-size: 1.5em;
-  margin-bottom: .5em;
-}
-
-.flex-box p {
-  margin: auto;
-  line-height: 1.5em;
-  color: transparentize($flex-box-font-color, .1);
-}
-
-.flex-box-big {
-  @include flex(1 1 30em);
 }
 
 //
