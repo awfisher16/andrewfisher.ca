@@ -247,15 +247,6 @@ $intro-bullet-image-color: $darkbrown;
     p {
       color: $intro-text-color;
       margin-bottom: 2em;
-
-      a {
-        color: $intro-text-highlight-colour;
-
-        &:hover{
-          text-decoration: underline;
-          color: $intro-text-color;
-        }
-      }
     }
 
     @include reset-display();
