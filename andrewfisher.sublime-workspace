@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"back",
+				"background"
+			],
+			[
 				"flex-box-",
 				"flex-box-top-colors"
 			],
@@ -96,10 +100,6 @@
 				"background-position"
 			],
 			[
-				"back",
-				"background-clip"
-			],
-			[
 				"grid",
 				"grid-background"
 			],
@@ -123,7 +123,7 @@
 			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 8972,
+				"buffer_size": 11270,
 				"line_ending": "Windows"
 			}
 		},
@@ -131,7 +131,7 @@
 			"file": "source/css/style.css.scss",
 			"settings":
 			{
-				"buffer_size": 10438,
+				"buffer_size": 11761,
 				"line_ending": "Windows"
 			}
 		},
@@ -285,6 +285,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"to",
+			"trans",
 			"bio",
 			"side-image",
 			"large-screen",
@@ -362,7 +364,7 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"groups":
@@ -376,25 +378,26 @@
 					"file": "source/index.html",
 					"settings":
 					{
-						"buffer_size": 8972,
+						"buffer_size": 11270,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7593,
-								7593
+								4366,
+								4366
 							]
 						],
 						"settings":
 						{
+							"spell_check": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1830.0,
+						"translation.y": 1380.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -404,15 +407,15 @@
 					"file": "source/css/style.css.scss",
 					"settings":
 					{
-						"buffer_size": 10438,
+						"buffer_size": 11761,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8406,
-								8406
+								11664,
+								11664
 							]
 						],
 						"settings":
@@ -423,7 +426,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 7830.0,
+						"translation.y": 9942.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
