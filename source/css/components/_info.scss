@@ -1,0 +1,159 @@
+$flex-boxes-background-color: $green;
+
+$flex-boxes-title-text-color1: $darkbrown;
+$flex-boxes-title-text-color2: $lightbrown;
+$flex-boxes-title-text-color2-hover: $cream;
+
+$flex-box-gutter: .6em;
+$flex-box-width: 18em;
+$flex-box-background: $green;
+$flex-box-hover-background: $cream;
+$flex-box-top-color: $darkbrown;
+$flex-box-top-hover-color: $lightbrown;
+$flex-box-font-color: $cream;
+$flex-box-font-hover-color: $darkbrown;
+
+$flex-box-background-images:
+  '/img/Structural.jpg',
+  '/img/Bridges.jpg',
+  '/img/Wind.jpg',
+  '/img/Land.jpg',
+  '/img/Testing.jpg';
+
+.info {
+  background-color:$flex-boxes-background-color;
+  padding: 3em 0 1.5em;
+}
+
+.flex-boxes-title {
+  padding: 0 1.5em 1.5em;
+  text-align: center;
+
+  h1 {
+    font-size: 1.6em;
+    margin-bottom: 0.2em;
+    color:$flex-boxes-title-text-color1;
+
+    @include media($large-screen) {
+      font-size: 4em;
+    }
+  }
+
+  h2 {
+    font-style: sans-serif;
+    font-size: 1.3em;
+    text-decoration: underline;
+
+    a {
+      color: $flex-boxes-title-text-color2;
+
+      &:hover{
+        color: $flex-boxes-title-text-color2-hover;
+      }
+    }
+  }
+}
+
+.flex-boxes-wrapper {
+  text-align: center;
+  max-width: 90%;
+  margin: 0 auto;
+
+  @include media($large-screen) {
+    width: 2/3*100%;
+  }
+
+  .flex-boxes {
+  @include clearfix;
+  @include display(flex);
+  @include justify-content(center);
+  @include align-items(stretch);
+  @include flex-wrap(wrap);
+
+    .flex-box {
+      @include flex(2 2 15em);
+      @include align-self(stretch);
+      display: block;
+      border-radius: $base-border-radius;
+      margin: $flex-box-gutter;
+      padding: 2em 2em 3em 2em;
+      border-top: 8px solid $flex-box-top-color;
+
+      background: $flex-box-background;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      @for $i from 1 to 6 {
+        // assign images from $flex-box-background-images list
+        &:nth-child(#{$i}) {
+          $image-from-list: nth($flex-box-background-images, $i);
+          @include background-image(
+            linear-gradient(
+              transparentize($darkbrown,0.3) 0,
+              transparentize($darkbrown,0.3) 100%
+              ),
+            url($image-from-list)
+          );
+        }
+      }
+
+      .flex-title {
+        color: $flex-box-font-color;
+        font-family: $sans-serif;
+        font-weight: 700;
+        font-size: 1.5em;
+        margin-bottom: .5em;
+      }
+
+      img {
+        display: block;
+        max-height: 4em;
+        margin: auto;
+        margin-bottom: 2em;
+        visibility: hidden
+      }
+
+      p {
+        margin: auto;
+        line-height: 1.5em;
+        color: $flex-box-font-hover-color;
+        visibility: hidden;
+      }
+
+      &:hover {
+        border-top: 8px solid $flex-box-top-hover-color;
+
+        @for $i from 1 to 6 {
+        // assign images from $flex-box-background-images list
+          &:nth-child(#{$i}) {
+            $image-from-list: nth($flex-box-background-images, $i);
+            @include background-image(
+              linear-gradient(
+                transparentize($cream,0.15) 0,
+                transparentize($cream,0.15) 100%
+              ),
+              url($image-from-list)
+            );
+          }
+        }
+
+        .flex-title{
+          color: $flex-box-font-hover-color;
+        }
+
+        img{
+          visibility: visible;
+        }
+
+        p{
+          visibility: visible;
+        }
+      }
+    }
+
+    .flex-box-big {
+      @include flex(1 1 30em);
+    }
+  }
+}

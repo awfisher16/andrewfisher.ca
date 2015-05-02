@@ -1,0 +1,160 @@
+$intro-text-background: $greybrown;
+$intro-text-header-colour: $green;
+$intro-text-color: $cream;
+$intro-text-highlight-colour: $green;
+
+$intro-bullet-color: $green;
+$intro-bullet-image-color: $darkbrown;
+
+.intro {
+
+  background: $intro-text-background;
+
+  @include media($medium-screen, $large-screen) {
+    @include row(table);
+  }
+
+  .content {
+    width: 100%;
+    padding: 4em 4em 1em 4em;
+    margin:auto;
+
+    @include media($medium-screen) {
+      width: 90%;
+      padding: 4em 4em 4em 4em;
+      margin: auto;
+    }
+
+    @include media($large-screen) {
+      width: 2/3*100%;
+
+    }
+  }
+
+  .introduction {
+
+    h1 {
+      margin-bottom: 1em;
+      text-align: center;
+      color: $intro-text-header-colour;
+
+      @include media($medium-screen, $large-screen) {
+        text-align: left;
+      }
+    }
+
+    p {
+      color: $intro-text-color;
+      margin-bottom: 2em;
+    }
+
+    @include reset-display();
+  }
+}
+
+//
+// Bullet Points
+//
+
+$icon-bullet-size: 2.5em;
+$screen-multiplier: 1.5;
+
+.bullets {
+  clear: both;
+  overflow: auto;
+  @include outer-container;
+  max-width: 100%;
+
+  @include media($medium-screen, $large-screen) {
+    padding-top: 2em;
+  }
+
+  h1 {
+      margin-bottom: 1em;
+      text-align: center;
+      color: $intro-text-header-colour;
+
+      @include media($medium-screen, $large-screen) {
+        text-align: left;
+      }
+    }
+
+  h2 {
+    display: inline-block;
+    color: $intro-text-color;
+    font-size: $icon-bullet-size /2;
+    padding-top: $icon-bullet-size /7;
+    margin-bottom: $icon-bullet-size /6;
+
+    @include media($medium-screen, $large-screen) {
+      font-size: $icon-bullet-size*$screen-multiplier /2.5;
+      padding-top: $icon-bullet-size*$screen-multiplier /7;
+      margin-bottom: $icon-bullet-size*$screen-multiplier /6;
+    }
+  }
+
+  // change to this for two bullet layout
+  .two-col-bullet {
+    @include media($large-screen) {
+      @include span-columns(6);
+      @include omega(2n)
+    }
+  }
+
+  // change to this for three bullet layout
+  .three-col-bullet {
+    @include media($large-screen) {
+    @include span-columns(4);
+    @include omega(3n)
+    }
+  }
+
+  // change to this for four bullet layout
+  .four-col-bullet {
+    @include media($large-screen) {
+      @include span-columns(3);
+      @include omega(4n)
+    }
+  }
+
+  .bullet-icon {
+    background: $intro-bullet-color;
+    border-radius: 50%;
+    padding: $icon-bullet-size/4;
+    width: $icon-bullet-size;
+    height: $icon-bullet-size;
+    margin: 0 auto 1em;
+
+    i {
+      font-size: $icon-bullet-size/2.1;
+      color: $intro-bullet-image-color;
+    }
+
+    @include media($medium-screen) {
+      float: left;
+      margin: initial;
+    }
+
+    @include media($medium-screen) {
+      padding: $icon-bullet-size*$screen-multiplier/4;
+      width: $icon-bullet-size*$screen-multiplier;
+      height: $icon-bullet-size*$screen-multiplier;
+
+      i{
+        font-size: $icon-bullet-size*$screen-multiplier/2.1;
+        color: $intro-bullet-image-color;
+      }
+    }
+  }
+
+  .bullet-content {
+    margin-bottom: 2em;
+    color: $intro-text-color;
+    text-align: center;
+
+    @include media($medium-screen) {
+      margin-left: $icon-bullet-size * $screen-multiplier * 1.4;
+      text-align: left;
+    }
+  }
+}
