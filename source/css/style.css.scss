@@ -10,13 +10,16 @@ $darkbrown: #181715;  //RGB(24, 23, 21)
 $greybrown: #2F2C27;  //RGB(47, 44, 39)
 $green: #A8D10F;      //RGB(168, 209, 15)
 
-$large-screen: 1224px;
-$medium-screen: 768px;
-$small-screen: 320px;
+$large-screen: em(1224);
+$medium-screen: em(600);
+$small-screen: em(320);
+
+::-moz-selection { background: transparentize($green, 0.6); }
+::selection { background: transparentize($green, 0.6); }
 
 html, body {
-    height: 100%;
-    margin:0;
+  height: 100%;
+  margin:0;
 }
 
 //
@@ -261,7 +264,7 @@ $icon-bullet-size: 2.5em;
 $screen-multiplier: 1.5;
 
 .bullets {
-  clear:both;
+  clear: both;
   overflow: auto;
   @include outer-container;
   max-width: 100%;
@@ -319,19 +322,24 @@ $screen-multiplier: 1.5;
   }
 
   .bullet-icon {
-    float: left;
     background: $intro-bullet-color;
     border-radius: 50%;
     padding: $icon-bullet-size/4;
     width: $icon-bullet-size;
     height: $icon-bullet-size;
+    margin: 0 auto 1em;
 
-    i{
+    i {
       font-size: $icon-bullet-size/2.1;
       color: $intro-bullet-image-color;
     }
 
-    @include media($medium-screen, $large-screen) {
+    @include media($medium-screen) {
+      float: left;
+      margin: initial;
+    }
+
+    @include media($medium-screen) {
       padding: $icon-bullet-size*$screen-multiplier/4;
       width: $icon-bullet-size*$screen-multiplier;
       height: $icon-bullet-size*$screen-multiplier;
@@ -344,12 +352,13 @@ $screen-multiplier: 1.5;
   }
 
   .bullet-content {
-    margin-left: $icon-bullet-size *1.4;
     margin-bottom: 2em;
     color: $intro-text-color;
+    text-align: center;
 
-    @include media($medium-screen, $large-screen) {
-      margin-left: $icon-bullet-size*$screen-multiplier*1.4;
+    @include media($medium-screen) {
+      margin-left: $icon-bullet-size * $screen-multiplier * 1.4;
+      text-align: left;
     }
   }
 }
@@ -382,11 +391,11 @@ $flex-box-background-images:
 
 .info {
   background-color:$flex-boxes-background-color;
-  padding-top: 1em;
+  padding: 3em 0 1.5em;
 }
 
 .flex-boxes-title {
-  padding: 2em 0 2em 0;
+  padding: 0 1.5em 1.5em;
   text-align: center;
 
   h1 {
@@ -417,9 +426,7 @@ $flex-box-background-images:
 .flex-boxes-wrapper {
   text-align: center;
   max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em 0 5em;
+  margin: 0 auto;
 
   @include media($large-screen) {
     width: 2/3*100%;
@@ -530,14 +537,12 @@ $flex-box-background-images:
   $footer-font-color-hover: $green;
 
   background: $footer-background-color;
-  padding-bottom: 1.5em;
-  width: 100%;
-  height: 100%;
+  padding: 0 1.5em 1.5em;
+  text-align: center;
 
   ul.footer-nav-links {
     padding-top: 2em;
     padding-bottom: 0.5em;
-    text-align: center;
 
     li {
       font-size: 2em;
@@ -549,8 +554,8 @@ $flex-box-background-images:
         color: $footer-font-color;
         padding-right: 0.5em;
 
-        &:first-child {
-        padding-left: 0.5em;
+        &:last-child {
+          padding-right: 0;
         }
 
         &:hover {
@@ -560,28 +565,26 @@ $flex-box-background-images:
     }
   }
 
-  p.footer-copywrite{
+  .footer-copywrite {
     color: $cream;
     font-size: 1em;
-    text-align: center;
+    margin: 0;
   }
 
-  ul.footer-top-link {
-  text-align: center;
-  padding: 1.5em 0 0.5em;
+  .footer-top-link {
+    display: inline-block;
+    margin: 1.5em 0 0.5em;
+    color: $footer-font-color;
+    font-size: 1em;
+    font-weight: 700;
 
-    a {
-      color: $footer-font-color;
-      font-size: 1em;
-      font-weight: 700;
+    &:hover {
+      color: $footer-font-color-hover;
+    }
 
-      &:hover {
-        color: $footer-font-color-hover;
-      }
-
-      i {
-        font-size:1.5em;
-      }
+    i {
+      display: block;
+      font-size: 1.5em;
     }
   }
 }
