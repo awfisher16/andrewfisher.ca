@@ -16,18 +16,11 @@ $intro-bullet-image-color: $darkbrown;
 
   .content {
     width: 100%;
+    max-width: em(1280);
     padding: 4em 4em 1em 4em;
-    margin:auto;
 
     @include media($medium-screen) {
-      width: 90%;
-      padding: 4em 4em 4em 4em;
-      margin: auto;
-    }
-
-    @include media($large-screen) {
-      width: 2/3*100%;
-
+      padding-bottom: 4em;
     }
   }
 
