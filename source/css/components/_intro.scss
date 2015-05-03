@@ -7,7 +7,6 @@ $intro-bullet-color: $green;
 $intro-bullet-image-color: $darkbrown;
 
 .intro {
-
   background: $intro-text-background;
 
   @include media($medium-screen, $large-screen) {
@@ -15,8 +14,8 @@ $intro-bullet-image-color: $darkbrown;
   }
 
   .content {
-    width: 100%;
     max-width: em(1280);
+    margin: 0 auto;
     padding: 4em 4em 1em 4em;
 
     @include media($medium-screen) {
