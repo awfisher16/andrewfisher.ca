@@ -1722,15 +1722,15 @@ html, body { height: 100%; margin: 0; }
 /* line 73, c:/www/andrewfisher.ca/source/css/components/_info.scss */
 .flex-boxes-wrapper .flex-boxes .flex-box { -webkit-box-flex: 2; -moz-box-flex: 2; box-flex: 2; -webkit-flex: 2 2 15em; -moz-flex: 2 2 15em; -ms-flex: 2 2 15em; flex: 2 2 15em; -webkit-align-self: stretch; -moz-align-self: stretch; align-self: stretch; -ms-flex-item-align: stretch; display: block; border-radius: 0.1875em; margin: 0.6em; padding: 2em 2em 3em 2em; border-top: 8px solid #181715; background: #FFFF00; background-repeat: no-repeat; background-position: center; background-size: cover; }
 /* line 89, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(1) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Structural.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Structural.jpg"); }
+.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(1) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Structural-1c8052be.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Structural-1c8052be.jpg"); }
 /* line 89, c:/www/andrewfisher.ca/source/css/components/_info.scss */
 .flex-boxes-wrapper .flex-boxes .flex-box:nth-child(2) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Bridges-5ca229ae.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Bridges-5ca229ae.jpg"); }
 /* line 89, c:/www/andrewfisher.ca/source/css/components/_info.scss */
 .flex-boxes-wrapper .flex-boxes .flex-box:nth-child(3) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Wind-9ad170d4.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Wind-9ad170d4.jpg"); }
 /* line 89, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(4) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Land.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Land.jpg"); }
+.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(4) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Land-48d932c1.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Land-48d932c1.jpg"); }
 /* line 89, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(5) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Testing.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Testing.jpg"); }
+.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(5) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Testing-96d5e6d6.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Testing-96d5e6d6.jpg"); }
 /* line 101, c:/www/andrewfisher.ca/source/css/components/_info.scss */
 .flex-boxes-wrapper .flex-boxes .flex-box .flex-title { color: #EDEAE1; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-weight: 700; font-size: 1.5em; margin-bottom: .5em; }
 /* line 109, c:/www/andrewfisher.ca/source/css/components/_info.scss */
@@ -1740,15 +1740,15 @@ html, body { height: 100%; margin: 0; }
 /* line 124, c:/www/andrewfisher.ca/source/css/components/_info.scss */
 .flex-boxes-wrapper .flex-boxes .flex-box:hover { border-top: 8px solid #292621; }
 /* line 129, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(1) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Structural.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Structural.jpg"); }
+.flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(1) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Structural-1c8052be.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Structural-1c8052be.jpg"); }
 /* line 129, c:/www/andrewfisher.ca/source/css/components/_info.scss */
 .flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(2) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Bridges-5ca229ae.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Bridges-5ca229ae.jpg"); }
 /* line 129, c:/www/andrewfisher.ca/source/css/components/_info.scss */
 .flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(3) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Wind-9ad170d4.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Wind-9ad170d4.jpg"); }
 /* line 129, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(4) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Land.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Land.jpg"); }
+.flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(4) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Land-48d932c1.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Land-48d932c1.jpg"); }
 /* line 129, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(5) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Testing.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Testing.jpg"); }
+.flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(5) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Testing-96d5e6d6.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Testing-96d5e6d6.jpg"); }
 /* line 141, c:/www/andrewfisher.ca/source/css/components/_info.scss */
 .flex-boxes-wrapper .flex-boxes .flex-box:hover .flex-title { color: #181715; }
 /* line 145, c:/www/andrewfisher.ca/source/css/components/_info.scss */
