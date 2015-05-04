@@ -120,10 +120,10 @@
 	"buffers":
 	[
 		{
-			"file": "source/index.html",
+			"file": "source/css/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 11690,
+				"buffer_size": 344,
 				"line_ending": "Windows"
 			}
 		}
@@ -176,8 +176,11 @@
 	},
 	"file_history":
 	[
-		"/C/www/andrewfisher.ca/source/css/style.css.scss",
+		"/C/www/andrewfisher.ca/source/index.html",
 		"/C/www/andrewfisher.ca/source/css/components/_intro.scss",
+		"/C/Program Files (x86)/Git/doc/git/html/git-remote.html",
+		"/C/www/andrewfisher.ca/.gitignore",
+		"/C/www/andrewfisher.ca/source/css/style.css.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_footer.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_info.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_header.scss",
@@ -185,7 +188,6 @@
 		"/C/www/andrewfisher.ca/source/css/_variables.scss",
 		"/C/www/andrewfisher.ca/source/humans.txt",
 		"/C/www/andrewfisher.ca/source/css/components/_globals.scss",
-		"/C/www/andrewfisher.ca/.gitignore",
 		"/C/www/andrewfisher.ca/source/MIT-LICENSE.txt",
 		"/C/www/andrewfisher.ca/source/css/_functions.scss",
 		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV_2.0.html",
@@ -195,7 +197,6 @@
 		"/C/Program Files/OpenVPN/config/andrew-desktop.crt",
 		"/C/www/andrewfisher.ca/source/js/all.js",
 		"/C/www/andrewfisher.ca/README.md",
-		"/C/www/andrewfisher.ca/source/index.html",
 		"/Z/Documents/Personal Documents/Employment/Resumes/TA Resume/Andrew_Fisher_Resume_APS112.html",
 		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/S13/Andrew_Fisher_Resume_Delcan (Kitchener).html",
 		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/W13/Andrew_Fisher_Resume_CFES.html",
@@ -362,33 +363,31 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "source/index.html",
+					"file": "source/css/_variables.scss",
 					"settings":
 					{
-						"buffer_size": 11690,
+						"buffer_size": 344,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3913,
-								3913
+								344,
+								344
 							]
 						],
 						"settings":
 						{
-							"spell_check": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1242.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
