@@ -14,7 +14,7 @@ $intro-bullet-image-color: $darkbrown;
   }
 
   .content {
-    max-width: em(1280);
+    max-width: em(1440);
     margin: 0 auto;
     padding: 4em 4em 1em 4em;
 
@@ -48,8 +48,8 @@ $intro-bullet-image-color: $darkbrown;
 // Bullet Points
 //
 
-$icon-bullet-size: 2.5em;
-$screen-multiplier: 1.5;
+$icon-bullet-size: 3em;
+$screen-multiplier: 1.25;
 
 .bullets {
   clear: both;

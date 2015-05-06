@@ -120,10 +120,18 @@
 	"buffers":
 	[
 		{
-			"file": "source/css/_variables.scss",
+			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 297,
+				"buffer_size": 11786,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/css/components/_intro.scss",
+			"settings":
+			{
+				"buffer_size": 3133,
 				"line_ending": "Windows"
 			}
 		}
@@ -176,16 +184,16 @@
 	},
 	"file_history":
 	[
-		"/C/www/andrewfisher.ca/source/index.html",
+		"/C/www/andrewfisher.ca/source/css/components/_info.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_intro.scss",
+		"/C/www/andrewfisher.ca/source/css/_variables.scss",
+		"/C/www/andrewfisher.ca/source/index.html",
 		"/C/Program Files (x86)/Git/doc/git/html/git-remote.html",
 		"/C/www/andrewfisher.ca/.gitignore",
 		"/C/www/andrewfisher.ca/source/css/style.css.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_footer.scss",
-		"/C/www/andrewfisher.ca/source/css/components/_info.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_header.scss",
 		"/C/www/andrewfisher.ca/source/css/_base.scss",
-		"/C/www/andrewfisher.ca/source/css/_variables.scss",
 		"/C/www/andrewfisher.ca/source/humans.txt",
 		"/C/www/andrewfisher.ca/source/css/components/_globals.scss",
 		"/C/www/andrewfisher.ca/source/MIT-LICENSE.txt",
@@ -363,31 +371,62 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "source/css/_variables.scss",
+					"file": "source/index.html",
 					"settings":
 					{
-						"buffer_size": 297,
+						"buffer_size": 11786,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								297,
-								297
+								5648,
+								5648
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"spell_check": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1458.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/css/components/_intro.scss",
+					"settings":
+					{
+						"buffer_size": 3133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								785,
+								785
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
