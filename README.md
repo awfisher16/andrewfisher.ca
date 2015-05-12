@@ -32,7 +32,7 @@ Your workflow
   6. `git commit -m "what I did"` make a record (commit) of these changes
   7. `git push` publish these changes to github
      - perform this step at the end of the development stage
-  8. `git deploy live` publish changes to server
+  8. `git deploy live master` publish changes to server
 
 Usefule Resources
 =================
