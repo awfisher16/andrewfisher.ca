@@ -131,15 +131,7 @@
 			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 13133,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/css/components/_intro.scss",
-			"settings":
-			{
-				"buffer_size": 3133,
+				"buffer_size": 13616,
 				"line_ending": "Windows"
 			}
 		}
@@ -192,10 +184,10 @@
 	},
 	"file_history":
 	[
+		"/C/www/andrewfisher.ca/source/css/components/_intro.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_info.scss",
 		"/C/www/andrewfisher.ca/source/css/_variables.scss",
 		"/C/www/andrewfisher.ca/source/img/manifest.json",
-		"/C/www/andrewfisher.ca/source/css/components/_intro.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_header.scss",
 		"/C/www/andrewfisher.ca/source/css/_base.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_footer.scss",
@@ -287,6 +279,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"  ",
 			"px",
 			".  ",
 			"  ",
@@ -380,7 +373,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -416,53 +409,26 @@
 					"file": "source/index.html",
 					"settings":
 					{
-						"buffer_size": 13133,
+						"buffer_size": 13616,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								996,
-								999
+								6594,
+								6594
 							]
 						],
 						"settings":
 						{
+							"spell_check": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "source/css/components/_intro.scss",
-					"settings":
-					{
-						"buffer_size": 3133,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								898,
-								898
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 594.0,
+						"translation.y": 1620.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
