@@ -184,10 +184,10 @@
 	},
 	"file_history":
 	[
+		"/C/www/andrewfisher.ca/source/img/manifest.json",
 		"/C/www/andrewfisher.ca/source/css/components/_intro.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_info.scss",
 		"/C/www/andrewfisher.ca/source/css/_variables.scss",
-		"/C/www/andrewfisher.ca/source/img/manifest.json",
 		"/C/www/andrewfisher.ca/source/css/components/_header.scss",
 		"/C/www/andrewfisher.ca/source/css/_base.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_footer.scss",
@@ -416,8 +416,8 @@
 						"selection":
 						[
 							[
-								6594,
-								6594
+								373,
+								373
 							]
 						],
 						"settings":
@@ -428,7 +428,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1620.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
