@@ -120,18 +120,10 @@
 	"buffers":
 	[
 		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 1502,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 13616,
+				"buffer_size": 13610,
 				"line_ending": "Windows"
 			}
 		}
@@ -184,6 +176,9 @@
 	},
 	"file_history":
 	[
+		"/C/www/andrewfisher.ca/build/index.html",
+		"/C/www/andrewfisher.ca/README.md",
+		"/C/www/andrewfisher.ca/source/index.html",
 		"/C/www/andrewfisher.ca/source/img/manifest.json",
 		"/C/www/andrewfisher.ca/source/css/components/_intro.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_info.scss",
@@ -191,7 +186,6 @@
 		"/C/www/andrewfisher.ca/source/css/components/_header.scss",
 		"/C/www/andrewfisher.ca/source/css/_base.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_footer.scss",
-		"/C/www/andrewfisher.ca/source/index.html",
 		"/C/Program Files (x86)/Git/doc/git/html/git-remote.html",
 		"/C/www/andrewfisher.ca/.gitignore",
 		"/C/www/andrewfisher.ca/source/css/style.css.scss",
@@ -205,7 +199,6 @@
 		"/C/Program Files/OpenVPN/config/ca.crt",
 		"/C/Program Files/OpenVPN/config/andrew-desktop.crt",
 		"/C/www/andrewfisher.ca/source/js/all.js",
-		"/C/www/andrewfisher.ca/README.md",
 		"/Z/Documents/Personal Documents/Employment/Resumes/TA Resume/Andrew_Fisher_Resume_APS112.html",
 		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/S13/Andrew_Fisher_Resume_Delcan (Kitchener).html",
 		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/W13/Andrew_Fisher_Resume_CFES.html",
@@ -373,62 +366,33 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 1502,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								153,
-								153
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "source/index.html",
 					"settings":
 					{
-						"buffer_size": 13616,
+						"buffer_size": 13610,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								373,
-								373
+								12136,
+								12136
 							]
 						],
 						"settings":
 						{
-							"spell_check": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3294.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

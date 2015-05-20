@@ -25,8 +25,10 @@
           padding-right: 0;
         }
 
-        &:hover {
-          color: $footer-font-color-hover;
+        @include media($medium-screen){
+          &:hover {
+            color: $footer-font-color-hover;
+          }
         }
       }
     }
@@ -45,8 +47,10 @@
     font-size: 1em;
     font-weight: 700;
 
-    &:hover {
-      color: $footer-font-color-hover;
+    @include media ($medium-screen){
+      &:hover {
+        color: $footer-font-color-hover;
+      }
     }
 
     i {

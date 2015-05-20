@@ -47,8 +47,10 @@ $flex-box-background-images:
     a {
       color: $flex-boxes-title-text-color2;
 
-      &:hover{
-        color: $flex-boxes-title-text-color2-hover;
+      @include media($medium-screen) {
+        &:hover{
+          color: $flex-boxes-title-text-color2-hover;
+        }
       }
     }
   }
@@ -81,20 +83,6 @@ $flex-box-background-images:
       background-position: center;
       background-size: cover;
 
-      @for $i from 1 to 6 {
-        // assign images from $flex-box-background-images list
-        &:nth-child(#{$i}) {
-          $image-from-list: nth($flex-box-background-images, $i);
-          @include background-image(
-            linear-gradient(
-              transparentize($darkbrown,0.3) 0,
-              transparentize($darkbrown,0.3) 100%
-              ),
-            url($image-from-list)
-          );
-        }
-      }
-
       .flex-title {
         color: $flex-box-font-color;
         font-family: $sans-serif;
@@ -108,43 +96,89 @@ $flex-box-background-images:
         max-height: 4em;
         margin: auto;
         margin-bottom: 2em;
-        visibility: hidden
+        visibility: visible;
       }
 
       p {
         margin: auto;
         line-height: 1.5em;
         color: $flex-box-font-hover-color;
-        visibility: hidden;
+        visibility: visible;
       }
 
-      &:hover {
-        border-top: 8px solid $flex-box-top-hover-color;
+      @for $i from 1 to 6 {
+      // assign images from $flex-box-background-images list
+        &:nth-child(#{$i}) {
+          $image-from-list: nth($flex-box-background-images, $i);
+          @include background-image(
+            linear-gradient(
+              transparentize($cream,0.15) 0,
+              transparentize($cream,0.15) 100%
+            ),
+            url($image-from-list)
+          );
+        }
+      }
 
+      .flex-title{
+        color: $flex-box-font-hover-color;
+      }
+
+      @include media($medium-screen) {
         @for $i from 1 to 6 {
         // assign images from $flex-box-background-images list
           &:nth-child(#{$i}) {
             $image-from-list: nth($flex-box-background-images, $i);
             @include background-image(
               linear-gradient(
-                transparentize($cream,0.15) 0,
-                transparentize($cream,0.15) 100%
-              ),
+                transparentize($darkbrown,0.3) 0,
+                transparentize($darkbrown,0.3) 100%
+                ),
               url($image-from-list)
             );
           }
         }
 
         .flex-title{
-          color: $flex-box-font-hover-color;
+          color: $flex-box-font-color;
         }
 
         img{
-          visibility: visible;
+          visibility: hidden;
         }
 
         p{
-          visibility: visible;
+          visibility: hidden;
+        }
+
+        &:hover {
+        border-top: 8px solid $flex-box-top-hover-color;
+
+          @for $i from 1 to 6 {
+          // assign images from $flex-box-background-images list
+            &:nth-child(#{$i}) {
+              $image-from-list: nth($flex-box-background-images, $i);
+              @include background-image(
+                linear-gradient(
+                  transparentize($cream,0.15) 0,
+                  transparentize($cream,0.15) 100%
+                ),
+                url($image-from-list)
+              );
+            }
+          }
+
+          .flex-title{
+            color: $flex-box-font-hover-color;
+          }
+
+          img{
+            visibility: visible;
+          }
+
+          p{
+            visibility: visible;
+          }
         }
       }
     }

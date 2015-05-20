@@ -9,17 +9,17 @@ $intro-bullet-image-color: $darkbrown;
 .intro {
   background: $intro-text-background;
 
-  @include media($medium-screen, $large-screen) {
+  @include media($medium-screen) {
     @include row(table);
   }
 
   .content {
     max-width: em(1440);
     margin: 0 auto;
-    padding: 4em 4em 1em 4em;
+    padding: 2em 2em 1em 2em;
 
     @include media($medium-screen) {
-      padding-bottom: 4em;
+      padding: 4em;
     }
   }
 
@@ -30,7 +30,7 @@ $intro-bullet-image-color: $darkbrown;
       text-align: center;
       color: $intro-text-header-colour;
 
-      @include media($medium-screen, $large-screen) {
+      @include media($medium-screen) {
         text-align: left;
       }
     }
@@ -57,7 +57,7 @@ $screen-multiplier: 1.25;
   @include outer-container;
   max-width: 100%;
 
-  @include media($medium-screen, $large-screen) {
+  @include media($medium-screen) {
     padding-top: 2em;
   }
 
@@ -66,19 +66,18 @@ $screen-multiplier: 1.25;
       text-align: center;
       color: $intro-text-header-colour;
 
-      @include media($medium-screen, $large-screen) {
+      @include media($medium-screen) {
         text-align: left;
       }
     }
 
   h2 {
     display: inline-block;
-    color: $intro-text-color;
     font-size: $icon-bullet-size /2;
     padding-top: $icon-bullet-size /7;
     margin-bottom: $icon-bullet-size /6;
 
-    @include media($medium-screen, $large-screen) {
+    @include media($medium-screen) {
       font-size: $icon-bullet-size*$screen-multiplier /2.5;
       padding-top: $icon-bullet-size*$screen-multiplier /7;
       margin-bottom: $icon-bullet-size*$screen-multiplier /6;
@@ -123,18 +122,14 @@ $screen-multiplier: 1.25;
     }
 
     @include media($medium-screen) {
-      float: left;
-      margin: initial;
-    }
-
-    @include media($medium-screen) {
       padding: $icon-bullet-size*$screen-multiplier/4;
       width: $icon-bullet-size*$screen-multiplier;
       height: $icon-bullet-size*$screen-multiplier;
+      float: left;
+      margin: initial;
 
       i{
         font-size: $icon-bullet-size*$screen-multiplier/2.1;
-        color: $intro-bullet-image-color;
       }
     }
   }
