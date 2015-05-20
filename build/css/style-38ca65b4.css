@@ -1574,55 +1574,57 @@ html, body { height: 100%; margin: 0; }
 .header { background-image: url("/img/Header_Image-d3f24c41.jpg"); background-image: url("/img/Header_Image-d3f24c41.jpg"); display: block; height: 100%; background-color: #181715; background-repeat: no-repeat; background-position: right; background-size: cover; }
 /* line 17, c:/www/andrewfisher.ca/source/css/components/_header.scss */
 .header .header-navigation { margin: auto; z-index: 999; background-color: rgba(41, 38, 33, 0.8); }
-/* line 33, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+/* line 34, c:/www/andrewfisher.ca/source/css/components/_header.scss */
 .header .header-navigation .header-navigation-wrapper { max-width: 68em; margin-left: auto; margin-right: auto; position: relative; z-index: 999; }
 /* line 15, c:/Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-4.0.2/app/assets/stylesheets/addons/_clearfix.scss */
 .header .header-navigation .header-navigation-wrapper:after { content: ""; display: table; clear: both; }
 /* line 15, c:/Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-4.0.2/app/assets/stylesheets/addons/_clearfix.scss */
 .header .header-navigation .header-navigation-wrapper:after { content: ""; display: table; clear: both; }
-/* line 40, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+/* line 41, c:/www/andrewfisher.ca/source/css/components/_header.scss */
 .header .header-navigation ul.header-navigation-menu { -webkit-transform-style: preserve-3d; clear: both; display: none; margin: 0 auto; overflow: visible; padding: 0; width: 100%; z-index: 999; }
-/* line 53, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+/* line 54, c:/www/andrewfisher.ca/source/css/components/_header.scss */
 .header .header-navigation ul.header-navigation-menu.show { display: block; }
-@media screen and (min-width: 37.5em) { /* line 40, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+@media screen and (min-width: 37.5em) { /* line 41, c:/www/andrewfisher.ca/source/css/components/_header.scss */
   .header .header-navigation ul.header-navigation-menu { display: block; text-align: center; } }
-/* line 65, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+/* line 66, c:/www/andrewfisher.ca/source/css/components/_header.scss */
 .header .header-navigation ul.header-navigation-menu-mobile { display: block; text-align: center; padding: 0.5em 0; }
-/* line 69, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+/* line 70, c:/www/andrewfisher.ca/source/css/components/_header.scss */
 .header .header-navigation ul.header-navigation-menu-mobile .nav-link { padding: 0.25em 0; }
-@media screen and (min-width: 37.5em) { /* line 65, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+@media screen and (min-width: 37.5em) { /* line 66, c:/www/andrewfisher.ca/source/css/components/_header.scss */
   .header .header-navigation ul.header-navigation-menu-mobile { display: none; } }
-@media screen and (min-width: 37.5em) { /* line 80, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+@media screen and (min-width: 37.5em) { /* line 81, c:/www/andrewfisher.ca/source/css/components/_header.scss */
   .header .header-navigation .nav-link:first-child { margin-left: 2.2em; } }
-/* line 86, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+/* line 87, c:/www/andrewfisher.ca/source/css/components/_header.scss */
 .header .header-navigation ul li.nav-link { display: block; line-height: auto; overflow: hidden; text-align: center; width: 100%; z-index: 9999; font-size: 1.25em; font-weight: 700; }
-@media screen and (min-width: 37.5em) { /* line 86, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+@media screen and (min-width: 37.5em) { /* line 87, c:/www/andrewfisher.ca/source/css/components/_header.scss */
   .header .header-navigation ul li.nav-link { display: inline; line-height: 3.75em; text-align: right; padding-right: 1em; font-size: 1.25em; } }
-@media screen and (min-width: 76.5em) { /* line 86, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+@media screen and (min-width: 76.5em) { /* line 87, c:/www/andrewfisher.ca/source/css/components/_header.scss */
   .header .header-navigation ul li.nav-link { font-size: 1.5em; } }
-/* line 108, c:/www/andrewfisher.ca/source/css/components/_header.scss */
-.header .header-navigation ul li.nav-link a { padding-right: 1em; color: #EDEAE1; }
+/* line 109, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+.header .header-navigation ul li.nav-link a { color: #EDEAE1; padding-right: 1em; }
 /* line 112, c:/www/andrewfisher.ca/source/css/components/_header.scss */
-.header .header-navigation ul li.nav-link a:hover { color: #A8D10F; }
-/* line 118, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+.header .header-navigation ul li.nav-link a:last-child { padding-right: 0; }
+@media screen and (min-width: 37.5em) { /* line 117, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+  .header .header-navigation ul li.nav-link a:hover { color: #A8D10F; } }
+/* line 124, c:/www/andrewfisher.ca/source/css/components/_header.scss */
 .header .header-navigation .logo i { max-height: 2em; vertical-align: middle; font-size: 1.5em; }
-/* line 125, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+/* line 131, c:/www/andrewfisher.ca/source/css/components/_header.scss */
 .header .header-inner { display: table; padding: 2em; text-align: center; height: 86%; width: 100%; }
-@media screen and (min-width: 37.5em) { /* line 125, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+@media screen and (min-width: 37.5em) { /* line 131, c:/www/andrewfisher.ca/source/css/components/_header.scss */
   .header .header-inner { height: 90%; } }
-/* line 136, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+/* line 142, c:/www/andrewfisher.ca/source/css/components/_header.scss */
 .header .header-inner .header-copy { display: table-cell; height: 100%; vertical-align: middle; }
-/* line 141, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+/* line 147, c:/www/andrewfisher.ca/source/css/components/_header.scss */
 .header .header-inner .header-copy h1 { color: #A8D10F; font-size: 2.5em; margin-bottom: .5em; }
-@media screen and (min-width: 37.5em) { /* line 141, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+@media screen and (min-width: 37.5em) { /* line 147, c:/www/andrewfisher.ca/source/css/components/_header.scss */
   .header .header-inner .header-copy h1 { font-size: 4em; } }
-@media screen and (min-width: 76.5em) { /* line 141, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+@media screen and (min-width: 76.5em) { /* line 147, c:/www/andrewfisher.ca/source/css/components/_header.scss */
   .header .header-inner .header-copy h1 { font-size: 6em; } }
-/* line 155, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+/* line 161, c:/www/andrewfisher.ca/source/css/components/_header.scss */
 .header .header-inner .header-copy h2 { color: #EDEAE1; margin: auto; margin-bottom: .5em; font-size: 1.5em; }
-@media screen and (min-width: 37.5em) { /* line 155, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+@media screen and (min-width: 37.5em) { /* line 161, c:/www/andrewfisher.ca/source/css/components/_header.scss */
   .header .header-inner .header-copy h2 { font-size: 2em; } }
-@media screen and (min-width: 76.5em) { /* line 155, c:/www/andrewfisher.ca/source/css/components/_header.scss */
+@media screen and (min-width: 76.5em) { /* line 161, c:/www/andrewfisher.ca/source/css/components/_header.scss */
   .header .header-inner .header-copy h2 { font-size: 3em; } }
 
 /* line 9, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
@@ -1632,9 +1634,9 @@ html, body { height: 100%; margin: 0; }
   /* line 15, c:/Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-4.0.2/app/assets/stylesheets/addons/_clearfix.scss */
   .intro:after { content: ""; display: table; clear: both; } }
 /* line 16, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
-.intro .content { max-width: 90em; margin: 0 auto; padding: 4em 4em 1em 4em; }
+.intro .content { max-width: 90em; margin: 0 auto; padding: 2em 2em 1em 2em; }
 @media screen and (min-width: 37.5em) { /* line 16, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
-  .intro .content { padding-bottom: 4em; } }
+  .intro .content { padding: 4em; } }
 /* line 28, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
 .intro .introduction h1 { margin-bottom: 1em; text-align: center; color: #A8D10F; }
 @media screen and (min-width: 37.5em) { /* line 28, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
@@ -1653,10 +1655,10 @@ html, body { height: 100%; margin: 0; }
 @media screen and (min-width: 37.5em) { /* line 64, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
   .bullets h1 { text-align: left; } }
 /* line 74, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
-.bullets h2 { display: inline-block; color: #EDEAE1; font-size: 1.5em; padding-top: 0.42857em; margin-bottom: 0.5em; }
+.bullets h2 { display: inline-block; font-size: 1.5em; padding-top: 0.42857em; margin-bottom: 0.5em; }
 @media screen and (min-width: 37.5em) { /* line 74, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
   .bullets h2 { font-size: 1.5em; padding-top: 0.53571em; margin-bottom: 0.625em; } }
-@media screen and (min-width: 76.5em) { /* line 89, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
+@media screen and (min-width: 76.5em) { /* line 88, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
   .bullets .two-col-bullet { float: left; display: block; margin-right: 2.35765%; width: 48.82117%; }
   /* line 38, c:/Ruby193/lib/ruby/gems/1.9.1/gems/neat-1.6.0/app/assets/stylesheets/grid/_span-columns.scss */
   .bullets .two-col-bullet:last-child { margin-right: 0; }
@@ -1664,7 +1666,7 @@ html, body { height: 100%; margin: 0; }
   .bullets .two-col-bullet:nth-child(2n) { margin-right: 0; }
   /* line 57, c:/Ruby193/lib/ruby/gems/1.9.1/gems/neat-1.6.0/app/assets/stylesheets/grid/_omega.scss */
   .bullets .two-col-bullet:nth-child(2n+1) { clear: left; } }
-@media screen and (min-width: 76.5em) { /* line 97, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
+@media screen and (min-width: 76.5em) { /* line 96, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
   .bullets .three-col-bullet { float: left; display: block; margin-right: 2.35765%; width: 31.76157%; }
   /* line 38, c:/Ruby193/lib/ruby/gems/1.9.1/gems/neat-1.6.0/app/assets/stylesheets/grid/_span-columns.scss */
   .bullets .three-col-bullet:last-child { margin-right: 0; }
@@ -1672,7 +1674,7 @@ html, body { height: 100%; margin: 0; }
   .bullets .three-col-bullet:nth-child(3n) { margin-right: 0; }
   /* line 57, c:/Ruby193/lib/ruby/gems/1.9.1/gems/neat-1.6.0/app/assets/stylesheets/grid/_omega.scss */
   .bullets .three-col-bullet:nth-child(3n+1) { clear: left; } }
-@media screen and (min-width: 76.5em) { /* line 105, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
+@media screen and (min-width: 76.5em) { /* line 104, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
   .bullets .four-col-bullet { float: left; display: block; margin-right: 2.35765%; width: 23.23176%; }
   /* line 38, c:/Ruby193/lib/ruby/gems/1.9.1/gems/neat-1.6.0/app/assets/stylesheets/grid/_span-columns.scss */
   .bullets .four-col-bullet:last-child { margin-right: 0; }
@@ -1680,19 +1682,17 @@ html, body { height: 100%; margin: 0; }
   .bullets .four-col-bullet:nth-child(4n) { margin-right: 0; }
   /* line 57, c:/Ruby193/lib/ruby/gems/1.9.1/gems/neat-1.6.0/app/assets/stylesheets/grid/_omega.scss */
   .bullets .four-col-bullet:nth-child(4n+1) { clear: left; } }
-/* line 112, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
+/* line 111, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
 .bullets .bullet-icon { background: #A8D10F; border-radius: 50%; padding: 0.75em; width: 3em; height: 3em; margin: 0 auto 1em; }
-/* line 120, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
+/* line 119, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
 .bullets .bullet-icon i { font-size: 1.42857em; color: #181715; }
-@media screen and (min-width: 37.5em) { /* line 112, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
-  .bullets .bullet-icon { float: left; margin: initial; } }
-@media screen and (min-width: 37.5em) { /* line 112, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
-  .bullets .bullet-icon { padding: 0.9375em; width: 3.75em; height: 3.75em; }
-  /* line 135, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
-  .bullets .bullet-icon i { font-size: 1.78571em; color: #181715; } }
-/* line 142, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
+@media screen and (min-width: 37.5em) { /* line 111, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
+  .bullets .bullet-icon { padding: 0.9375em; width: 3.75em; height: 3.75em; float: left; margin: initial; }
+  /* line 131, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
+  .bullets .bullet-icon i { font-size: 1.78571em; } }
+/* line 137, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
 .bullets .bullet-content { margin-bottom: 2em; color: #EDEAE1; text-align: center; }
-@media screen and (min-width: 37.5em) { /* line 142, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
+@media screen and (min-width: 37.5em) { /* line 137, c:/www/andrewfisher.ca/source/css/components/_intro.scss */
   .bullets .bullet-content { margin-left: 5.25em; text-align: left; } }
 
 /* line 23, c:/www/andrewfisher.ca/source/css/components/_info.scss */
@@ -1708,52 +1708,70 @@ html, body { height: 100%; margin: 0; }
 .flex-boxes-title h2 { font-style: sans-serif; font-size: 1.3em; text-decoration: underline; }
 /* line 47, c:/www/andrewfisher.ca/source/css/components/_info.scss */
 .flex-boxes-title h2 a { color: #292621; }
-/* line 50, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-title h2 a:hover { color: #EDEAE1; }
+@media screen and (min-width: 37.5em) { /* line 51, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-title h2 a:hover { color: #EDEAE1; } }
 
-/* line 57, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+/* line 59, c:/www/andrewfisher.ca/source/css/components/_info.scss */
 .flex-boxes-wrapper { text-align: center; max-width: 90em; padding: 1em 1.5em 2em; margin: 0 auto; }
-/* line 63, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+/* line 65, c:/www/andrewfisher.ca/source/css/components/_info.scss */
 .flex-boxes-wrapper .flex-boxes { display: -webkit-box; display: -moz-box; display: box; display: -webkit-flex; display: -moz-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -moz-box-pack: center; box-pack: center; -webkit-justify-content: center; -moz-justify-content: center; -ms-justify-content: center; -o-justify-content: center; justify-content: center; -ms-flex-pack: center; -webkit-box-align: stretch; -moz-box-align: stretch; box-align: stretch; -webkit-align-items: stretch; -moz-align-items: stretch; -ms-align-items: stretch; -o-align-items: stretch; align-items: stretch; -ms-flex-align: stretch; -webkit-box-lines: multiple; -moz-box-lines: multiple; box-lines: multiple; -webkit-flex-wrap: wrap; -moz-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 /* line 15, c:/Ruby193/lib/ruby/gems/1.9.1/gems/bourbon-4.0.2/app/assets/stylesheets/addons/_clearfix.scss */
 .flex-boxes-wrapper .flex-boxes:after { content: ""; display: table; clear: both; }
-/* line 70, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+/* line 72, c:/www/andrewfisher.ca/source/css/components/_info.scss */
 .flex-boxes-wrapper .flex-boxes .flex-box { -webkit-box-flex: 2; -moz-box-flex: 2; box-flex: 2; -webkit-flex: 2 2 15em; -moz-flex: 2 2 15em; -ms-flex: 2 2 15em; flex: 2 2 15em; -webkit-align-self: stretch; -moz-align-self: stretch; align-self: stretch; -ms-flex-item-align: stretch; display: block; border-radius: 0.1875em; margin: 0.6em; padding: 2em 2em 3em 2em; border-top: 8px solid #181715; background: #A8D10F; background-repeat: no-repeat; background-position: center; background-size: cover; }
 /* line 86, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(1) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Structural-1c8052be.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Structural-1c8052be.jpg"); }
-/* line 86, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(2) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Bridges-5ca229ae.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Bridges-5ca229ae.jpg"); }
-/* line 86, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(3) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Wind-9ad170d4.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Wind-9ad170d4.jpg"); }
-/* line 86, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(4) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Land-48d932c1.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Land-48d932c1.jpg"); }
-/* line 86, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(5) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Testing-96d5e6d6.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Testing-96d5e6d6.jpg"); }
-/* line 98, c:/www/andrewfisher.ca/source/css/components/_info.scss */
 .flex-boxes-wrapper .flex-boxes .flex-box .flex-title { color: #EDEAE1; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-weight: 700; font-size: 1.5em; margin-bottom: .5em; }
-/* line 106, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box img { display: block; max-height: 4em; margin: auto; margin-bottom: 2em; visibility: hidden; }
-/* line 114, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box p { margin: auto; line-height: 1.5em; color: #181715; visibility: hidden; }
-/* line 121, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:hover { border-top: 8px solid #292621; }
-/* line 126, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(1) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Structural-1c8052be.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Structural-1c8052be.jpg"); }
-/* line 126, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(2) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Bridges-5ca229ae.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Bridges-5ca229ae.jpg"); }
-/* line 126, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(3) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Wind-9ad170d4.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Wind-9ad170d4.jpg"); }
-/* line 126, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(4) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Land-48d932c1.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Land-48d932c1.jpg"); }
-/* line 126, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(5) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Testing-96d5e6d6.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Testing-96d5e6d6.jpg"); }
-/* line 138, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:hover .flex-title { color: #181715; }
-/* line 142, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:hover img { visibility: visible; }
-/* line 146, c:/www/andrewfisher.ca/source/css/components/_info.scss */
-.flex-boxes-wrapper .flex-boxes .flex-box:hover p { visibility: visible; }
-/* line 152, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+/* line 94, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+.flex-boxes-wrapper .flex-boxes .flex-box img { display: block; max-height: 4em; margin: auto; margin-bottom: 2em; visibility: visible; }
+/* line 102, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+.flex-boxes-wrapper .flex-boxes .flex-box p { margin: auto; line-height: 1.5em; color: #181715; visibility: visible; }
+/* line 111, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(1) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Structural-1c8052be.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Structural-1c8052be.jpg"); }
+/* line 111, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(2) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Bridges-5ca229ae.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Bridges-5ca229ae.jpg"); }
+/* line 111, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(3) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Wind-9ad170d4.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Wind-9ad170d4.jpg"); }
+/* line 111, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(4) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Land-48d932c1.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Land-48d932c1.jpg"); }
+/* line 111, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+.flex-boxes-wrapper .flex-boxes .flex-box:nth-child(5) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Testing-96d5e6d6.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Testing-96d5e6d6.jpg"); }
+/* line 123, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+.flex-boxes-wrapper .flex-boxes .flex-box .flex-title { color: #181715; }
+@media screen and (min-width: 37.5em) { /* line 130, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box:nth-child(1) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Structural-1c8052be.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Structural-1c8052be.jpg"); }
+  /* line 130, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box:nth-child(2) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Bridges-5ca229ae.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Bridges-5ca229ae.jpg"); }
+  /* line 130, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box:nth-child(3) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Wind-9ad170d4.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Wind-9ad170d4.jpg"); }
+  /* line 130, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box:nth-child(4) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Land-48d932c1.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Land-48d932c1.jpg"); }
+  /* line 130, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box:nth-child(5) { background-image: -webkit-linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Testing-96d5e6d6.jpg"); background-image: linear-gradient(rgba(24, 23, 21, 0.7) 0, rgba(24, 23, 21, 0.7) 100%), url("/img/Testing-96d5e6d6.jpg"); }
+  /* line 142, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box .flex-title { color: #EDEAE1; }
+  /* line 146, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box img { visibility: hidden; }
+  /* line 150, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box p { visibility: hidden; }
+  /* line 154, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box:hover { border-top: 8px solid #292621; }
+  /* line 159, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(1) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Structural-1c8052be.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Structural-1c8052be.jpg"); }
+  /* line 159, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(2) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Bridges-5ca229ae.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Bridges-5ca229ae.jpg"); }
+  /* line 159, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(3) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Wind-9ad170d4.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Wind-9ad170d4.jpg"); }
+  /* line 159, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(4) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Land-48d932c1.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Land-48d932c1.jpg"); }
+  /* line 159, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box:hover:nth-child(5) { background-image: -webkit-linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Testing-96d5e6d6.jpg"); background-image: linear-gradient(rgba(237, 234, 225, 0.85) 0, rgba(237, 234, 225, 0.85) 100%), url("/img/Testing-96d5e6d6.jpg"); }
+  /* line 171, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box:hover .flex-title { color: #181715; }
+  /* line 175, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box:hover img { visibility: visible; }
+  /* line 179, c:/www/andrewfisher.ca/source/css/components/_info.scss */
+  .flex-boxes-wrapper .flex-boxes .flex-box:hover p { visibility: visible; } }
+/* line 186, c:/www/andrewfisher.ca/source/css/components/_info.scss */
 .flex-boxes-wrapper .flex-boxes .flex-box-big { -webkit-box-flex: 1; -moz-box-flex: 1; box-flex: 1; -webkit-flex: 1 1 30em; -moz-flex: 1 1 30em; -ms-flex: 1 1 30em; flex: 1 1 30em; }
 
 /* line 1, c:/www/andrewfisher.ca/source/css/components/_footer.scss */
@@ -1766,13 +1784,13 @@ html, body { height: 100%; margin: 0; }
 .footer ul.footer-nav-links li a { color: #EDEAE1; padding-right: 0.5em; }
 /* line 24, c:/www/andrewfisher.ca/source/css/components/_footer.scss */
 .footer ul.footer-nav-links li a:last-child { padding-right: 0; }
-/* line 28, c:/www/andrewfisher.ca/source/css/components/_footer.scss */
-.footer ul.footer-nav-links li a:hover { color: #A8D10F; }
-/* line 35, c:/www/andrewfisher.ca/source/css/components/_footer.scss */
+@media screen and (min-width: 37.5em) { /* line 29, c:/www/andrewfisher.ca/source/css/components/_footer.scss */
+  .footer ul.footer-nav-links li a:hover { color: #A8D10F; } }
+/* line 37, c:/www/andrewfisher.ca/source/css/components/_footer.scss */
 .footer .footer-copywrite { color: #EDEAE1; font-size: 1em; margin: 0; }
-/* line 41, c:/www/andrewfisher.ca/source/css/components/_footer.scss */
+/* line 43, c:/www/andrewfisher.ca/source/css/components/_footer.scss */
 .footer .footer-top-link { display: inline-block; margin: 1.5em 0 0.5em; color: #EDEAE1; font-size: 1em; font-weight: 700; }
-/* line 48, c:/www/andrewfisher.ca/source/css/components/_footer.scss */
-.footer .footer-top-link:hover { color: #A8D10F; }
-/* line 52, c:/www/andrewfisher.ca/source/css/components/_footer.scss */
+@media screen and (min-width: 37.5em) { /* line 51, c:/www/andrewfisher.ca/source/css/components/_footer.scss */
+  .footer .footer-top-link:hover { color: #A8D10F; } }
+/* line 56, c:/www/andrewfisher.ca/source/css/components/_footer.scss */
 .footer .footer-top-link i { display: block; font-size: 1.5em; }
