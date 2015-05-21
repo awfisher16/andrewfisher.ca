@@ -119,30 +119,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 2638,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/index.html",
-			"settings":
-			{
-				"buffer_size": 13615,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/css/components/_intro.scss",
-			"settings":
-			{
-				"buffer_size": 2935,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -192,19 +168,23 @@
 	},
 	"file_history":
 	[
-		"/C/www/andrewfisher.ca/source/css/components/_info.scss",
-		"/C/www/andrewfisher.ca/source/css/components/_intro.scss",
-		"/C/www/andrewfisher.ca/source/css/components/_footer.scss",
-		"/C/www/andrewfisher.ca/source/css/components/_header.scss",
-		"/C/www/andrewfisher.ca/source/css/_variables.scss",
-		"/C/www/andrewfisher.ca/source/css/_base.scss",
-		"/C/www/andrewfisher.ca/build/index.html",
 		"/C/www/andrewfisher.ca/README.md",
 		"/C/www/andrewfisher.ca/source/index.html",
+		"/C/www/andrewfisher.ca/source/css/components/_aboutme.scss",
+		"/C/www/andrewfisher.ca/source/css/_base.scss",
+		"/C/www/andrewfisher.ca/source/css/components/_header.scss",
+		"/C/www/andrewfisher.ca/source/js/all.js",
+		"/C/www/andrewfisher.ca/source/css/style.css.scss",
+		"/C/www/andrewfisher.ca/source/css/components/_experience.scss",
+		"/C/www/andrewfisher.ca/source/css/components/_intro.scss",
+		"/C/www/andrewfisher.ca/source/css/components/_info.scss",
+		"/C/www/andrewfisher.ca/source/img/browserconfig.xml",
+		"/C/www/andrewfisher.ca/source/css/components/_footer.scss",
+		"/C/www/andrewfisher.ca/source/css/_variables.scss",
+		"/C/www/andrewfisher.ca/build/index.html",
 		"/C/www/andrewfisher.ca/source/img/manifest.json",
 		"/C/Program Files (x86)/Git/doc/git/html/git-remote.html",
 		"/C/www/andrewfisher.ca/.gitignore",
-		"/C/www/andrewfisher.ca/source/css/style.css.scss",
 		"/C/www/andrewfisher.ca/source/humans.txt",
 		"/C/www/andrewfisher.ca/source/css/components/_globals.scss",
 		"/C/www/andrewfisher.ca/source/MIT-LICENSE.txt",
@@ -214,7 +194,6 @@
 		"/Z/Documents/Personal Documents/Employment/Resumes/PEO Resume/Andrew_Fisher_PEO_GLC_Resume.html",
 		"/C/Program Files/OpenVPN/config/ca.crt",
 		"/C/Program Files/OpenVPN/config/andrew-desktop.crt",
-		"/C/www/andrewfisher.ca/source/js/all.js",
 		"/Z/Documents/Personal Documents/Employment/Resumes/TA Resume/Andrew_Fisher_Resume_APS112.html",
 		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/S13/Andrew_Fisher_Resume_Delcan (Kitchener).html",
 		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/W13/Andrew_Fisher_Resume_CFES.html",
@@ -288,6 +267,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"intro",
 			"  ",
 			"px",
 			".  ",
@@ -382,93 +362,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 2638,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2461,
-								2461
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 498.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "source/index.html",
-					"settings":
-					{
-						"buffer_size": 13615,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12519,
-								12436
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3240.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "source/css/components/_intro.scss",
-					"settings":
-					{
-						"buffer_size": 2935,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2513,
-								2513
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1752.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

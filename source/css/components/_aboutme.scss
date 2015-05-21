@@ -1,13 +1,13 @@
-$intro-text-background: $greybrown;
-$intro-text-header-colour: $green;
-$intro-text-color: $cream;
-$intro-text-highlight-colour: $green;
+$aboutme-text-background: $greybrown;
+$aboutme-text-header-colour: $green;
+$aboutme-text-color: $cream;
+$aboutme-text-highlight-colour: $green;
 
-$intro-bullet-color: $green;
-$intro-bullet-image-color: $darkbrown;
+$aboutme-bullet-color: $green;
+$aboutme-bullet-image-color: $darkbrown;
 
-.intro {
-  background: $intro-text-background;
+.aboutme {
+  background: $aboutme-text-background;
 
   @include media($medium-screen) {
     @include row(table);
@@ -28,7 +28,7 @@ $intro-bullet-image-color: $darkbrown;
     h1 {
       margin-bottom: 1em;
       text-align: center;
-      color: $intro-text-header-colour;
+      color: $aboutme-text-header-colour;
 
       @include media($medium-screen) {
         text-align: left;
@@ -36,7 +36,7 @@ $intro-bullet-image-color: $darkbrown;
     }
 
     p {
-      color: $intro-text-color;
+      color: $aboutme-text-color;
       margin-bottom: 2em;
     }
 
@@ -64,7 +64,7 @@ $screen-multiplier: 1.25;
   h1 {
       margin-bottom: 1em;
       text-align: center;
-      color: $intro-text-header-colour;
+      color: $aboutme-text-header-colour;
 
       @include media($medium-screen) {
         text-align: left;
@@ -109,7 +109,7 @@ $screen-multiplier: 1.25;
   }
 
   .bullet-icon {
-    background: $intro-bullet-color;
+    background: $aboutme-bullet-color;
     border-radius: 50%;
     padding: $icon-bullet-size/4;
     width: $icon-bullet-size;
@@ -118,7 +118,7 @@ $screen-multiplier: 1.25;
 
     i {
       font-size: $icon-bullet-size/2.1;
-      color: $intro-bullet-image-color;
+      color: $aboutme-bullet-image-color;
     }
 
     @include media($medium-screen) {
@@ -136,7 +136,7 @@ $screen-multiplier: 1.25;
 
   .bullet-content {
     margin-bottom: 2em;
-    color: $intro-text-color;
+    color: $aboutme-text-color;
     text-align: center;
 
     @include media($medium-screen) {
