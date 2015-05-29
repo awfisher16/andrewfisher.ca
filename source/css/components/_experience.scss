@@ -42,14 +42,16 @@ $flex-box-background-images:
   h2 {
     font-style: sans-serif;
     font-size: 1.3em;
-    text-decoration: underline;
 
     a {
       color: $flex-boxes-title-text-color2;
+      border-bottom: 1px dotted $flex-boxes-title-text-color2;
+      text-decoration: none;
 
       @include media($medium-screen) {
         &:hover{
           color: $flex-boxes-title-text-color2-hover;
+          border-bottom-color: $flex-boxes-title-text-color2-hover;
         }
       }
     }
@@ -75,13 +77,17 @@ $flex-box-background-images:
       display: block;
       border-radius: $base-border-radius;
       margin: $flex-box-gutter;
-      padding: 2em 2em 3em 2em;
       border-top: 8px solid $flex-box-top-color;
 
       background: $flex-box-background;
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+
+      .flex-pointer{
+        cursor: pointer;
+        padding: 2em 2em 3em 2em;
+      }
 
       .flex-title {
         color: $flex-box-font-color;
@@ -99,11 +105,12 @@ $flex-box-background-images:
         visibility: visible;
       }
 
-      p {
+      .flex-content {
         margin: auto;
         line-height: 1.5em;
         color: $flex-box-font-hover-color;
         visibility: visible;
+        font-weight: normal;
       }
 
       @for $i from 1 to 6 {
@@ -147,7 +154,7 @@ $flex-box-background-images:
           visibility: hidden;
         }
 
-        p{
+        .flex-content{
           visibility: hidden;
         }
 
@@ -176,7 +183,7 @@ $flex-box-background-images:
             visibility: visible;
           }
 
-          p{
+          .flex-content{
             visibility: visible;
           }
         }
@@ -187,4 +194,138 @@ $flex-box-background-images:
       @include flex(1 1 30em);
     }
   }
+}
+
+.modal {
+  $fade-background-color: transparentize($darkbrown, 0.1);
+  $base-border-radius: 3px;
+  $base-background-color: $cream;
+  $base-font-size: 1em;
+  $base-line-height: 1.5em;
+  $base-font-color: $darkbrown;
+  $base-font-hover-color: $green;
+  $modal-padding: 3em;
+  $modal-background-color: $base-background-color;
+  $modal-close-color: $greybrown;
+  $modal-close-hover-color: $green;
+  $modal-paragraph-color: $lightbrown;
+  $modal-image-height: 135px;
+  $modal-image-width: $modal-image-height;
+
+  .modal-state {
+    display: none;
+  }
+
+  .modal-fade-screen { // overlay
+    @include transition(opacity 0.25s ease);
+    @include position(fixed, 0px 0px 0px 0px);
+    background: $fade-background-color;
+    opacity: 0;
+    padding-top: 0.6em;
+    text-align: left;
+    visibility: hidden;
+    z-index: 99999999999;
+
+    @include media($large-screen) {
+      padding-top: 10em;
+    }
+  }
+
+  .modal-close {
+    @include position(absolute, ($modal-padding /2) ($modal-padding /2) null null);
+    @include size(1.5em);
+    background: $modal-background-color;
+    cursor: pointer;
+
+    &:after,
+    &:before {
+      @include position(absolute, 3px 3px 0 50%);
+      @include transform(rotate(45deg));
+      @include size(0.15em 1.5em);
+      background: $modal-close-color;
+      content: '';
+      display: block;
+      margin: -3px 0 0 -1px;
+    }
+
+    &:hover:after,
+    &:hover:before {
+      background: $modal-close-hover-color;
+    }
+
+    &:before {
+      @include transform(rotate(-45deg));
+    }
+  }
+
+  .modal-inner {
+    @include transition(opacity 0.25s ease);
+    background: $modal-background-color;
+    border-radius: $base-border-radius;
+    margin-top: 0;
+    margin: auto;
+    max-height: 95%;
+    overflow: auto;
+    padding: $modal-padding / 2;
+    position: relative;
+    width: 95%;
+
+    @include media($medium-screen) {
+      max-height: 70%;
+      padding: $modal-padding;
+      width: 60%;
+    }
+
+    @include media($large-screen) {
+      width: 50%;
+    }
+
+    .modal-title {
+      color: $base-font-color;
+      margin-bottom: 0 0 0.6em 0;
+      text-align: left;
+      text-transform: capitalize;
+    }
+
+    p {
+      line-height: $base-line-height;
+    }
+
+    .modal-intro {
+      font-weight: 600;
+      color: $base-font-color;
+
+      a{
+        color: $base-font-color;
+        border-bottom: 1px dotted $base-font-color;
+        text-decoration: none;
+
+        &:hover{
+          color: $base-font-hover-color;
+          border-bottom-color: $base-font-hover-color;
+        }
+      }
+    }
+
+    .modal-content {
+      color: $modal-paragraph-color;
+
+      @include media($medium-screen) {
+        @include columns(2 8em);
+      }
+    }
+  }
+
+  .modal-state:checked + .modal-fade-screen {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .modal-state:checked + .modal-fade-screen .modal-inner {
+    top: 0.5em;
+  }
+}
+
+.modal-open {
+  overflow: hidden;
 }
