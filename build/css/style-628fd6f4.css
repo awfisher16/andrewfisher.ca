@@ -1786,36 +1786,32 @@ html, body { height: 100%; margin: 0; }
 .modal .modal-close { position: absolute; top: 1.5em; right: 1.5em; height: 1.5em; width: 1.5em; background: #EDEAE1; cursor: pointer; }
 /* line 240, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
 .modal .modal-close:after, .modal .modal-close:before { position: absolute; top: 3px; right: 3px; bottom: 0; left: 50%; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); height: 1.5em; width: 0.15em; background: #2F2C27; content: ''; display: block; margin: -3px 0 0 -1px; }
-/* line 251, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
-.modal .modal-close:hover:after, .modal .modal-close:hover:before { background: #A8D10F; }
-/* line 256, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
+@media screen and (min-width: 37.5em) { /* line 252, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
+  .modal .modal-close:hover:after, .modal .modal-close:hover:before { background: #A8D10F; } }
+/* line 258, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
 .modal .modal-close:before { -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
-/* line 261, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
+/* line 263, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
 .modal .modal-inner { -webkit-transition: opacity 0.25s ease; -moz-transition: opacity 0.25s ease; transition: opacity 0.25s ease; background: #EDEAE1; border-radius: 3px; margin-top: 0; margin: auto; max-height: 95%; overflow: auto; padding: 1.5em; position: relative; width: 95%; }
-@media screen and (min-width: 37.5em) { /* line 261, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
+@media screen and (min-width: 37.5em) { /* line 263, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
   .modal .modal-inner { max-height: 70%; padding: 3em; width: 60%; } }
-@media screen and (min-width: 76.5em) { /* line 261, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
+@media screen and (min-width: 76.5em) { /* line 263, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
   .modal .modal-inner { width: 50%; } }
-/* line 283, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
-.modal .modal-inner .modal-title { color: #181715; margin-bottom: 0 0 0.6em 0; text-align: left; text-transform: capitalize; }
-/* line 290, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
-.modal .modal-inner p { line-height: 1.5em; }
-/* line 294, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
-.modal .modal-inner .modal-intro { font-weight: 600; color: #181715; }
-/* line 298, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
+/* line 285, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
+.modal .modal-inner .modal-title { color: #181715; margin-bottom: 0.6em; text-align: left; text-transform: capitalize; }
+/* line 292, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
+.modal .modal-inner .modal-intro { line-height: 1.5em; font-weight: 600; color: #181715; }
+/* line 297, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
 .modal .modal-inner .modal-intro a { color: #181715; border-bottom: 1px dotted #181715; text-decoration: none; }
-/* line 303, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
-.modal .modal-inner .modal-intro a:hover { color: #A8D10F; border-bottom-color: #A8D10F; }
-/* line 310, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
-.modal .modal-inner .modal-content { color: #292621; }
-@media screen and (min-width: 37.5em) { /* line 310, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
-  .modal .modal-inner .modal-content { -webkit-columns: 2 8em; -moz-columns: 2 8em; columns: 2 8em; } }
-/* line 319, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
+@media screen and (min-width: 37.5em) { /* line 303, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
+  .modal .modal-inner .modal-intro a:hover { color: #A8D10F; border-bottom-color: #A8D10F; } }
+/* line 311, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
+.modal .modal-inner .modal-content { line-height: 1.5em; color: #292621; font-weight: normal; list-style-type: circle; margin-left: 1.25em; }
+/* line 320, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
 .modal .modal-state:checked + .modal-fade-screen { opacity: 1; visibility: visible; }
-/* line 324, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
+/* line 325, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
 .modal .modal-state:checked + .modal-fade-screen .modal-inner { top: 0.5em; }
 
-/* line 329, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
+/* line 330, c:/www/andrewfisher.ca/source/css/components/_experience.scss */
 .modal-open { overflow: hidden; }
 
 /* line 1, c:/www/andrewfisher.ca/source/css/components/_footer.scss */

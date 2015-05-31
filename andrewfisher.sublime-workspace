@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
 				"back",
 				"background"
 			],
@@ -36,10 +48,6 @@
 				"table-cell"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"nav-i",
 				"nav-item-padding"
 			],
@@ -50,10 +58,6 @@
 			[
 				"margi",
 				"margin"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"mar",
@@ -82,10 +86,6 @@
 			[
 				"flex-boxes",
 				"flex-boxes-background-color3"
-			],
-			[
-				"font",
-				"font-size"
 			],
 			[
 				"grid-item-b",
@@ -123,7 +123,15 @@
 			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 14494,
+				"buffer_size": 21382,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/css/components/_aboutme.scss",
+			"settings":
+			{
+				"buffer_size": 2963,
 				"line_ending": "Windows"
 			}
 		}
@@ -176,19 +184,19 @@
 	},
 	"file_history":
 	[
+		"/C/www/andrewfisher.ca/source/css/components/_experience.scss",
+		"/C/www/andrewfisher.ca/source/js/all.js",
+		"/C/www/andrewfisher.ca/source/css/_variables.scss",
 		"/C/www/andrewfisher.ca/README.md",
 		"/C/www/andrewfisher.ca/source/index.html",
 		"/C/www/andrewfisher.ca/source/css/components/_aboutme.scss",
 		"/C/www/andrewfisher.ca/source/css/_base.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_header.scss",
-		"/C/www/andrewfisher.ca/source/js/all.js",
 		"/C/www/andrewfisher.ca/source/css/style.css.scss",
-		"/C/www/andrewfisher.ca/source/css/components/_experience.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_intro.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_info.scss",
 		"/C/www/andrewfisher.ca/source/img/browserconfig.xml",
 		"/C/www/andrewfisher.ca/source/css/components/_footer.scss",
-		"/C/www/andrewfisher.ca/source/css/_variables.scss",
 		"/C/www/andrewfisher.ca/build/index.html",
 		"/C/www/andrewfisher.ca/source/img/manifest.json",
 		"/C/Program Files (x86)/Git/doc/git/html/git-remote.html",
@@ -275,6 +283,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
 			"intro",
 			"  ",
 			"px",
@@ -370,7 +379,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -378,25 +387,54 @@
 					"file": "source/index.html",
 					"settings":
 					{
-						"buffer_size": 14494,
+						"buffer_size": 21382,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								932,
-								932
+								12405,
+								12405
 							]
 						],
 						"settings":
 						{
+							"spell_check": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3257.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/css/components/_aboutme.scss",
+					"settings":
+					{
+						"buffer_size": 2963,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								392,
+								392
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

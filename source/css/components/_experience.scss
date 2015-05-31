@@ -248,9 +248,11 @@ $flex-box-background-images:
       margin: -3px 0 0 -1px;
     }
 
-    &:hover:after,
-    &:hover:before {
-      background: $modal-close-hover-color;
+    @include media($medium-screen) {
+      &:hover:after,
+      &:hover:before {
+        background: $modal-close-hover-color;
+      }
     }
 
     &:before {
@@ -282,16 +284,13 @@ $flex-box-background-images:
 
     .modal-title {
       color: $base-font-color;
-      margin-bottom: 0 0 0.6em 0;
+      margin-bottom: 0.6em;
       text-align: left;
       text-transform: capitalize;
     }
 
-    p {
-      line-height: $base-line-height;
-    }
-
     .modal-intro {
+      line-height: $base-line-height;
       font-weight: 600;
       color: $base-font-color;
 
@@ -300,19 +299,21 @@ $flex-box-background-images:
         border-bottom: 1px dotted $base-font-color;
         text-decoration: none;
 
-        &:hover{
-          color: $base-font-hover-color;
-          border-bottom-color: $base-font-hover-color;
+        @include media($medium-screen) {
+          &:hover{
+            color: $base-font-hover-color;
+            border-bottom-color: $base-font-hover-color;
+          }
         }
       }
     }
 
     .modal-content {
+      line-height: $base-line-height;
       color: $modal-paragraph-color;
-
-      @include media($medium-screen) {
-        @include columns(2 8em);
-      }
+      font-weight: normal;
+      list-style-type: circle;
+      margin-left: 1.25em;
     }
   }
 
