@@ -4,9 +4,10 @@
         <meta charset="utf-8">
         <meta content="IE=edge" http-equiv="X-UA-Compatible">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Andrew W. Fisher</title>
         <meta name="description" content="A personal website for Andrew Fisher: passionate in structural engineering, project management, technical research and public policy.">
+        <title>Andrew W. Fisher</title>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
         <link rel="stylesheet" href="css/style.css">
 
@@ -117,8 +118,16 @@
                                     <i class="fa fa-cogs"></i>
                                 </div>
                                 <div class="bullet-content">
-                                    <h2>Structural Engineering</h2>
-                                    <p>Upon graduating I plan to be hired at a structural engineering consulting firm where I see myself joining a team who focuses on the design of concrete structures. I am looking for a team that will be able to mentor me for two years as an Engineering Intern (EIT), after which I can become an active P.Eng. within the firm.</p>
+                                    <div class="standard-content">
+                                        <h2>Structural Engineering</h2>
+                                        <p>Upon graduating I plan to be hired at a structural engineering consulting firm where I see myself joining a team who focuses on the design of concrete structures. I am looking for a team that will be able to mentor me for two years as an Engineering Intern (EIT), after which I can become an active P.Eng. within the firm.</p>
+                                    </div>
+                                    <div class="expander">
+                                        <h2 id="js-expander-trigger-1" class="expander-trigger expander-hidden">Structural Engineering</h2>
+                                        <div id="js-expander-content-1" class="expander-content">
+                                            <p>Upon graduating I plan to be hired at a structural engineering consulting firm where I see myself joining a team who focuses on the design of concrete structures. I am looking for a team that will be able to mentor me for two years as an Engineering Intern (EIT), after which I can become an active P.Eng. within the firm.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
                             <li class="bullet four-col-bullet">
@@ -126,8 +135,16 @@
                                     <i class="fa fa-users"></i>
                                 </div>
                                 <div class="bullet-content">
-                                    <h2>Project Management</h2>
-                                    <p>While working as a P.Eng., I want to be involved in coordinating projects with clients, contractors, and government organizations. Long term, I want to become a Project Manager where I can oversee the technical design and coordination of multiple projects.</p>
+                                    <div class="standard-content">
+                                        <h2>Project Management</h2>
+                                        <p>While working as a P.Eng., I want to be involved in coordinating projects with clients, contractors, and government organizations. Long term, I want to become a Project Manager where I can oversee the technical design and coordination of multiple projects.</p>
+                                    </div>
+                                    <div class="expander">
+                                        <h2 id="js-expander-trigger-2" class="expander-trigger expander-hidden">Project Management</h2>
+                                        <div id="js-expander-content-2" class="expander-content">
+                                            <p>While working as a P.Eng., I want to be involved in coordinating projects with clients, contractors, and government organizations. Long term, I want to become a Project Manager where I can oversee the technical design and coordination of multiple projects.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
                             <li class="bullet four-col-bullet">
@@ -135,8 +152,16 @@
                                     <i class="fa fa-university"></i>
                                 </div>
                                 <div class="bullet-content">
-                                    <h2>Technical Research</h2>
-                                    <p>I would like to join a consulting firm that chooses to push boundaries and investigate areas of structural design that may not have been thought a possibility in the past. I see technical research critical to the advancement of our industry, and hope to have a role in that advancement process.</p>
+                                    <div class="standard-content">
+                                        <h2 >Technical Research</h2>
+                                        <p>I would like to join a consulting firm that chooses to push boundaries and investigate areas of structural design that may not have been thought a possibility in the past. I see technical research critical to the advancement of our industry, and hope to have a role in that advancement process.</p>
+                                    </div>
+                                    <div class="expander">
+                                        <h2 id="js-expander-trigger-3" class="expander-trigger expander-hidden">Technical Research</h2>
+                                        <div id="js-expander-content-3" class="expander-content">
+                                            <p>I would like to join a consulting firm that chooses to push boundaries and investigate areas of structural design that may not have been thought a possibility in the past. I see technical research critical to the advancement of our industry, and hope to have a role in that advancement process.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
                             <li class="bullet four-col-bullet">
@@ -144,8 +169,16 @@
                                     <i class="fa fa-list-ul"></i>
                                 </div>
                                 <div class="bullet-content">
-                                    <h2>Regulation & Public Policy</h2>
-                                    <p> Along side my engineering career, I plan on engaging with local politics in order to bring engineering insight to the decisions being made on behalf of my community. I would like to hold a seat on my city’s Public Works and Infrastructure Committee or equivalent. My long term goal is to run for a city councilor position.</p>
+                                    <div class="standard-content">
+                                        <h2>Regulation & Public Policy</h2>
+                                        <p> Along side my engineering career, I plan on engaging with local politics in order to bring engineering insight to the decisions being made on behalf of my community. I would like to hold a seat on my city’s Public Works and Infrastructure Committee or equivalent. My long term goal is to run for a city councilor position.</p>
+                                    </div>
+                                    <div class="expander">
+                                        <h2 id="js-expander-trigger-4" class="expander-trigger expander-hidden">Regulation & Public Policy</h2>
+                                        <div id="js-expander-content-4" class="expander-content">
+                                            <p> Along side my engineering career, I plan on engaging with local politics in order to bring engineering insight to the decisions being made on behalf of my community. I would like to hold a seat on my city’s Public Works and Infrastructure Committee or equivalent. My long term goal is to run for a city councilor position.</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
@@ -159,14 +192,14 @@
                     <h2>A resume is available <a href="mailto:andrew@andrewfisher.ca?sqs_title=Request a Resume">upon request</a>.</h2>
                 </div>
                 <div class="flex-boxes-wrapper">
-                    <div class="flex-boxes modal">
-                        <label class="flex-box" for="modal-1">
-                            <div class="flex-pointer">
+                    <div class="flex-boxes">
+                        <div class="flex-box modal">
+                            <label class="flex-pointer" for="modal-1">
                                 <img src="/img/UofT.png" alt="">
                                 <h1 class="flex-title">Structural Engineering</h1>
                                 <p class="flex-content">Graduate Research Assistant at The University of Toronto</p>
-                            </div>
-                            <input class="modal-state" id="modal-1" type="checkbox" />
+                            </label>
+                            <input class="modal-state" id="modal-1" type="checkbox"/>
                             <div class="modal-fade-screen">
                                 <div class="modal-inner">
                                     <div class="modal-close" for="modal-1"></div>
@@ -179,14 +212,14 @@
                                     </ul>
                                 </div>
                             </div>
-                        </label>
-                        <label class="flex-box" for="modal-2">
-                            <div class="flex-pointer">
+                        </div>
+                        <div class="flex-box modal">
+                            <label class="flex-pointer" for="modal-2">
                                 <img src="/img/MTO.png" alt="" style="padding: 10px 0">
                                 <h1 class="flex-title">Bridge Rehabilitation</h1>
                                 <p class="flex-content">Bridge Research Assistant at the Ministry of Transportation - Ontario</p>
-                            </div>
-                            <input class="modal-state" id="modal-2" type="checkbox" />
+                            </label>
+                            <input class="modal-state" id="modal-2" type="checkbox"/>
                             <div class="modal-fade-screen">
                                 <div class="modal-inner">
                                     <div class="modal-close" for="modal-2"></div>
@@ -199,14 +232,14 @@
                                     </ul>
                                 </div>
                             </div>
-                        </label>
-                        <label class="flex-box" for="modal-3">
-                            <div class="flex-pointer">
+                        </div>
+                        <div class="flex-box modal">
+                            <label class="flex-pointer" for="modal-3">
                                 <img src="/img/RWDI.png" alt="">
                                 <h1 class="flex-title">Wind Engineering</h1>
                                 <p class="flex-content">Technical Project Coordinator at RWDI Consulting Engineers</p>
-                            </div>
-                            <input class="modal-state" id="modal-3" type="checkbox" />
+                            </label>
+                            <input class="modal-state" id="modal-3" type="checkbox"/>
                             <div class="modal-fade-screen">
                                 <div class="modal-inner">
                                     <div class="modal-close" for="modal-3"></div>
@@ -219,14 +252,14 @@
                                     </ul>
                                 </div>
                             </div>
-                        </label>
-                        <label class="flex-box" for="modal-4">
-                            <div class="flex-pointer">
+                        </div>
+                        <div class="flex-box modal" >
+                            <label class="flex-pointer" for="modal-4">
                                 <img src="/img/SCS.png" alt="">
                                 <h1 class="flex-title">Land Development</h1>
                                 <p class="flex-content">Municipal Engineering Assistant at SCS Consulting Group Ltd.</p>
-                            </div>
-                            <input class="modal-state" id="modal-4" type="checkbox" />
+                            </label>
+                            <input class="modal-state" id="modal-4" type="checkbox"/>
                             <div class="modal-fade-screen">
                                 <div class="modal-inner">
                                     <div class="modal-close" for="modal-4"></div>
@@ -239,14 +272,14 @@
                                     </ul>
                                 </div>
                             </div>
-                        </label>
-                        <label class="flex-box" for="modal-5">
-                            <div class="flex-pointer">
+                        </div>
+                        <div class="flex-box modal">
+                            <label class="flex-pointer" for="modal-5">
                                 <img src="/img/ConCast.png" alt="">
                                 <h1 class="flex-title">Concrete Design and Testing</h1>
                                 <p class="flex-content">Engineering Project Assistant at Con Cast Pipe</p>
-                            </div>
-                            <input class="modal-state" id="modal-5" type="checkbox" />
+                            </label>
+                            <input class="modal-state" id="modal-5" type="checkbox"/>
                             <div class="modal-fade-screen">
                                 <div class="modal-inner">
                                     <div class="modal-close" for="modal-5"></div>
@@ -259,7 +292,7 @@
                                     </ul>
                                 </div>
                             </div>
-                        </label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -292,7 +325,7 @@
             </footer>
         </main>
         <script src="https://squaresend.com/squaresend.js"></script>
-        <script src="/js/all.js"></script>
+        <script type="text/javascript" src="/js/all.js"></script>
         <link rel="stylesheet" href="css/style.css">
     </body>
 </html>

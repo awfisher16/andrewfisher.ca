@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pdding",
+				"padding-bottom"
+			],
+			[
 				"margin",
 				"margin-left"
 			],
@@ -123,16 +127,16 @@
 			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 21382,
+				"buffer_size": 24809,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "source/css/components/_aboutme.scss",
+			"file": "source/js/all.js",
 			"settings":
 			{
-				"buffer_size": 2963,
-				"line_ending": "Windows"
+				"buffer_size": 2528,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -184,14 +188,15 @@
 	},
 	"file_history":
 	[
-		"/C/www/andrewfisher.ca/source/css/components/_experience.scss",
+		"/C/www/andrewfisher.ca/source/index.html",
 		"/C/www/andrewfisher.ca/source/js/all.js",
+		"/C/www/andrewfisher.ca/source/css/components/_aboutme.scss",
+		"/C/www/andrewfisher.ca/source/css/components/_experience.scss",
+		"/C/www/andrewfisher.ca/source/css/components/_header.scss",
+		"/C/www/andrewfisher.ca/source/humans.txt",
 		"/C/www/andrewfisher.ca/source/css/_variables.scss",
 		"/C/www/andrewfisher.ca/README.md",
-		"/C/www/andrewfisher.ca/source/index.html",
-		"/C/www/andrewfisher.ca/source/css/components/_aboutme.scss",
 		"/C/www/andrewfisher.ca/source/css/_base.scss",
-		"/C/www/andrewfisher.ca/source/css/components/_header.scss",
 		"/C/www/andrewfisher.ca/source/css/style.css.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_intro.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_info.scss",
@@ -201,7 +206,6 @@
 		"/C/www/andrewfisher.ca/source/img/manifest.json",
 		"/C/Program Files (x86)/Git/doc/git/html/git-remote.html",
 		"/C/www/andrewfisher.ca/.gitignore",
-		"/C/www/andrewfisher.ca/source/humans.txt",
 		"/C/www/andrewfisher.ca/source/css/components/_globals.scss",
 		"/C/www/andrewfisher.ca/source/MIT-LICENSE.txt",
 		"/C/www/andrewfisher.ca/source/css/_functions.scss",
@@ -283,6 +287,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
+			"});\n",
 			";\n",
 			"intro",
 			"  ",
@@ -379,7 +385,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -387,54 +393,53 @@
 					"file": "source/index.html",
 					"settings":
 					{
-						"buffer_size": 21382,
+						"buffer_size": 24809,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12405,
-								12405
+								7555,
+								7555
 							]
 						],
 						"settings":
 						{
-							"spell_check": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3257.0,
+						"translation.y": 1674.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "source/css/components/_aboutme.scss",
+					"file": "source/js/all.js",
 					"settings":
 					{
-						"buffer_size": 2963,
+						"buffer_size": 2528,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								392,
-								392
+								650,
+								650
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

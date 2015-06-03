@@ -115,6 +115,7 @@ $screen-multiplier: 1.25;
     width: $icon-bullet-size;
     height: $icon-bullet-size;
     margin: 0 auto 1em;
+    float: left;
 
     i {
       font-size: $icon-bullet-size/2.1;
@@ -125,7 +126,6 @@ $screen-multiplier: 1.25;
       padding: $icon-bullet-size*$screen-multiplier/4;
       width: $icon-bullet-size*$screen-multiplier;
       height: $icon-bullet-size*$screen-multiplier;
-      float: left;
       margin: initial;
 
       i{
@@ -137,11 +137,43 @@ $screen-multiplier: 1.25;
   .bullet-content {
     margin-bottom: 2em;
     color: $aboutme-text-color;
-    text-align: center;
+    margin-left: $icon-bullet-size * $screen-multiplier * 1.4;
 
-    @include media($medium-screen) {
-      margin-left: $icon-bullet-size * $screen-multiplier * 1.4;
-      text-align: left;
+    .standard-content{
+      display: none;
+
+      @include media($medium-screen) {
+        display: block;
+      }
+    }
+
+    .expander {
+      $expander-arrow-width: 0.7em;
+
+      @include media($medium-screen) {
+        display: none;
+      }
+
+      .expander-trigger {
+        display: block;
+        cursor: pointer;
+        //border-bottom: 1px dotted $aboutme-text-color;
+
+        &:before {
+          content: "\25BC";
+          margin-right: 0.5em;
+        }
+      }
+
+      .expander-hidden {
+        &:before {
+          content: "\25BA";
+        }
+      }
+
+      .expander-hidden + .expander-content {
+        display: none;
+      }
     }
   }
 }
