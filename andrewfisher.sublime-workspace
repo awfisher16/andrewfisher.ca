@@ -127,16 +127,16 @@
 			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 24809,
+				"buffer_size": 24942,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "source/js/all.js",
+			"file": "source/css/components/_experience.scss",
 			"settings":
 			{
-				"buffer_size": 2528,
-				"line_ending": "Unix"
+				"buffer_size": 7552,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -188,14 +188,14 @@
 	},
 	"file_history":
 	[
-		"/C/www/andrewfisher.ca/source/index.html",
-		"/C/www/andrewfisher.ca/source/js/all.js",
 		"/C/www/andrewfisher.ca/source/css/components/_aboutme.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_experience.scss",
+		"/C/www/andrewfisher.ca/README.md",
+		"/C/www/andrewfisher.ca/source/js/all.js",
+		"/C/www/andrewfisher.ca/source/index.html",
 		"/C/www/andrewfisher.ca/source/css/components/_header.scss",
 		"/C/www/andrewfisher.ca/source/humans.txt",
 		"/C/www/andrewfisher.ca/source/css/_variables.scss",
-		"/C/www/andrewfisher.ca/README.md",
 		"/C/www/andrewfisher.ca/source/css/_base.scss",
 		"/C/www/andrewfisher.ca/source/css/style.css.scss",
 		"/C/www/andrewfisher.ca/source/css/components/_intro.scss",
@@ -287,6 +287,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"src",
 			";\n",
 			"});\n",
 			";\n",
@@ -393,15 +394,15 @@
 					"file": "source/index.html",
 					"settings":
 					{
-						"buffer_size": 24809,
+						"buffer_size": 24942,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7555,
-								7555
+								5911,
+								5911
 							]
 						],
 						"settings":
@@ -411,35 +412,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1674.0,
+						"translation.y": 1734.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "source/js/all.js",
+					"file": "source/css/components/_experience.scss",
 					"settings":
 					{
-						"buffer_size": 2528,
+						"buffer_size": 7552,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								650,
-								650
+								1430,
+								1430
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 972.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

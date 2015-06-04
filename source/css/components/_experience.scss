@@ -189,10 +189,6 @@ $flex-box-background-images:
         }
       }
     }
-
-    .flex-box-big {
-      @include flex(1 1 30em);
-    }
   }
 }
 
