@@ -147,7 +147,7 @@
 			"file": "/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
 			"settings":
 			{
-				"buffer_size": 14511,
+				"buffer_size": 14512,
 				"line_ending": "Windows"
 			}
 		}
@@ -469,24 +469,25 @@
 					"file": "/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
 					"settings":
 					{
-						"buffer_size": 14511,
+						"buffer_size": 14512,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4723,
-								4723
+								5241,
+								5241
 							]
 						],
 						"settings":
 						{
+							"spell_check": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1836.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
