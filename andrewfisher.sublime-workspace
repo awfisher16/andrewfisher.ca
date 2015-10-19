@@ -135,14 +135,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "source/index.html",
-			"settings":
-			{
-				"buffer_size": 25003,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -192,15 +184,15 @@
 	},
 	"file_history":
 	[
-		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/styles_datelist.css",
+		"/C/www/andrewfisher.ca/source/index.html",
 		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
+		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/styles_datelist.css",
 		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV.html",
 		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/styles_bulletlist.css",
 		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/resume_datelist.html",
 		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/styles_datelist.css",
 		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/resume_bulletlist.html",
 		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/S13/Andrew_Fisher_Resume_Tacoma.html",
-		"/C/www/andrewfisher.ca/source/index.html",
 		"/Z/Documents/University of Toronto/Thesis/Test Data/CBF1/DAC/CBF1_LS6-LS7.asc",
 		"/Z/Documents/University of Toronto/Thesis/Test Data/CBF1/CBF1_LS6-LS7.asc",
 		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Rami Mansour.pdf",
@@ -312,6 +304,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"directed",
 			"  ",
 			"Summary",
 			"summary",
@@ -424,38 +417,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "source/index.html",
-					"settings":
-					{
-						"buffer_size": 25003,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								15347,
-								15347
-							]
-						],
-						"settings":
-						{
-							"spell_check": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3564.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
