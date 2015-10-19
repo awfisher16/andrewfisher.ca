@@ -135,6 +135,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "source/index.html",
+			"settings":
+			{
+				"buffer_size": 25003,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
+			"settings":
+			{
+				"buffer_size": 14511,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -417,8 +433,64 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "source/index.html",
+					"settings":
+					{
+						"buffer_size": 25003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14921,
+								14921
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3672.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
+					"settings":
+					{
+						"buffer_size": 14511,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4723,
+								4723
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1836.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
