@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"LAST",
+				"last-child"
+			],
+			[
 				"marg",
 				"margin-bottom"
 			],
@@ -72,10 +80,6 @@
 				"side-image-pic-background"
 			],
 			[
-				"margi",
-				"margin"
-			],
-			[
 				"in",
 				"inline-block"
 			],
@@ -132,10 +136,18 @@
 	"buffers":
 	[
 		{
-			"file": "source/index.html",
+			"file": "/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/styles_datelist.css",
 			"settings":
 			{
-				"buffer_size": 25447,
+				"buffer_size": 2544,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
+			"settings":
+			{
+				"buffer_size": 14440,
 				"line_ending": "Windows"
 			}
 		}
@@ -188,14 +200,16 @@
 	},
 	"file_history":
 	[
-		"/Z/Documents/University of Toronto/Thesis/Test Data/CBF1/CBF1_LS6-LS7.asc",
-		"/C/www/andrewfisher.ca/source/index.html",
-		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/resume_bulletlist.html",
-		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/styles_datelist.css",
-		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/resume_datelist.html",
-		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/styles_bulletlist.css",
-		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Rami Mansour.pdf",
 		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV.html",
+		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/styles_bulletlist.css",
+		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/resume_datelist.html",
+		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/styles_datelist.css",
+		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/resume_bulletlist.html",
+		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/S13/Andrew_Fisher_Resume_Tacoma.html",
+		"/C/www/andrewfisher.ca/source/index.html",
+		"/Z/Documents/University of Toronto/Thesis/Test Data/CBF1/DAC/CBF1_LS6-LS7.asc",
+		"/Z/Documents/University of Toronto/Thesis/Test Data/CBF1/CBF1_LS6-LS7.asc",
+		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Rami Mansour.pdf",
 		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV_2.0.html",
 		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/resume_original.html",
 		"/C/www/andrewfisher.ca/source/css/components/_experience.scss",
@@ -271,7 +285,6 @@
 		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/F11/Continuous Round/Andrew_Fisher_Resume_Arup.html",
 		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/S12/Andrew_Fisher_Resume_Caskanette.html",
 		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/F11/First Round/Andrew_Fisher_Resume_AMEC.html",
-		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/S13/Andrew_Fisher_Resume_Tacoma.html",
 		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/S13/Andrew_Fisher_Resume_Dillon.html",
 		"/Z/Documents/University of Waterloo/Co-operative Program/Resumes/Andrew_Fisher_CV.html",
 		"/C/Program Files (x86)/Adobe/Read Me First.html",
@@ -305,6 +318,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"  ",
 			"Summary",
 			"summary",
 			"helvetica",
@@ -404,6 +418,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			" ",
+			""
 		],
 		"reverse": true,
 		"show_context": true,
@@ -414,33 +430,61 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "source/index.html",
+					"file": "/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/styles_datelist.css",
 					"settings":
 					{
-						"buffer_size": 25447,
+						"buffer_size": 2544,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24229,
-								24229
+								1452,
+								1452
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5886.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
+					"settings":
+					{
+						"buffer_size": 14440,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1312,
+								1312
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
