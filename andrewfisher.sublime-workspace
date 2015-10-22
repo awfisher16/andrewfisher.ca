@@ -139,15 +139,7 @@
 			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 25003,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
-			"settings":
-			{
-				"buffer_size": 14498,
+				"buffer_size": 25004,
 				"line_ending": "Windows"
 			}
 		}
@@ -201,6 +193,7 @@
 	"file_history":
 	[
 		"/C/www/andrewfisher.ca/source/index.html",
+		"/C/www/andrewfisher.ca/build/css/style-4cc3e4f4.css",
 		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
 		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/styles_datelist.css",
 		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV.html",
@@ -433,7 +426,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -441,15 +434,15 @@
 					"file": "source/index.html",
 					"settings":
 					{
-						"buffer_size": 25003,
+						"buffer_size": 25004,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14921,
-								14921
+								2160,
+								2160
 							]
 						],
 						"settings":
@@ -459,35 +452,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3672.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
-					"settings":
-					{
-						"buffer_size": 14498,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5851,
-								5851
-							]
-						],
-						"settings":
-						{
-							"spell_check": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2322.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
