@@ -186,6 +186,9 @@
 	[
 		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
 		"/C/www/andrewfisher.ca/source/index.html",
+		"/C/www/andrewfisher.ca/source/css/components/_experience.scss",
+		"/C/www/andrewfisher.ca/source/css/_base.scss",
+		"/C/www/andrewfisher.ca/source/css/style.css.scss",
 		"/Z/Documents/UniversityofToronto/Thesis/Analysis/LEDs/OOP/CBF4_LED_element_OOP_data.txt",
 		"/Z/Documents/UniversityofToronto/Thesis/Analysis/LEDs/OOP/CBF3_LED_element_OOP_data.txt",
 		"/Z/Documents/UniversityofToronto/Thesis/Analysis/LEDs/OOP/CBF2_LED_element_OOP_data.txt",
@@ -308,10 +311,7 @@
 		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_bott_dv_west.txt",
 		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_top_dv_east.txt",
 		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_bott_end_east.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_top_end_west.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_bott_mid.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_bott_dv_east.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_bott_end_eastX.txt"
+		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_top_end_west.txt"
 	],
 	"find":
 	{
