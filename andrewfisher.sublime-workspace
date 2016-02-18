@@ -136,10 +136,18 @@
 	"buffers":
 	[
 		{
+			"file": "/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
+			"settings":
+			{
+				"buffer_size": 14457,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "source/index.html",
 			"settings":
 			{
-				"buffer_size": 25243,
+				"buffer_size": 25232,
 				"line_ending": "Windows"
 			}
 		}
@@ -192,8 +200,8 @@
 	},
 	"file_history":
 	[
-		"/Z/Dropbox/YNAB/My Budget~D48100FB.ynab4/readme.txt",
 		"/C/www/andrewfisher.ca/source/index.html",
+		"/Z/Dropbox/YNAB/My Budget~D48100FB.ynab4/readme.txt",
 		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
 		"/C/www/andrewfisher.ca/source/css/components/_experience.scss",
 		"/C/www/andrewfisher.ca/source/css/_base.scss",
@@ -453,23 +461,50 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "source/index.html",
+					"file": "/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
 					"settings":
 					{
-						"buffer_size": 25243,
+						"buffer_size": 14457,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16608,
-								16608
+								1351,
+								1351
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/index.html",
+					"settings":
+					{
+						"buffer_size": 25232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16760,
+								16760
 							]
 						],
 						"settings":
@@ -479,7 +514,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3672.0,
+						"translation.y": 4104.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
