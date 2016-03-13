@@ -135,22 +135,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
-			"settings":
-			{
-				"buffer_size": 14457,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/index.html",
-			"settings":
-			{
-				"buffer_size": 25232,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -200,9 +184,19 @@
 	},
 	"file_history":
 	[
-		"/C/www/andrewfisher.ca/source/index.html",
-		"/Z/Dropbox/YNAB/My Budget~D48100FB.ynab4/readme.txt",
 		"/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
+		"/C/www/andrewfisher.ca/source/index.html",
+		"/Z/Documents/Personal Documents/PEO/Engineering Memberships.txt",
+		"/C/Users/Andrew Fisher/AppData/Local/Temp/Rar$DIb0.027/Instrucciones.txt",
+		"/Z/Documents/Personal Documents/Employment/Andrew_Fisher_CV.html",
+		"/C/Program Files/Computers and Structures/ETABS 2015/lservrc",
+		"/Z/Documents/Personal Documents/Computer Programs/Engineering/ETABS 2015/Readme.txt",
+		"/Z/Documents/Personal Documents/Computer Programs/Engineering/ETABS 2015/Keygen/Readme.txt",
+		"/C/Users/Andrew Fisher/AppData/Local/Temp/Rar$DIb0.548/Readme.txt",
+		"/Z/Documents/Personal Documents/Computer Programs/Engineering/ETABS 2015/Keygen/lservrc",
+		"/C/Users/Andrew Fisher/AppData/Local/Temp/Rar$DIa0.995/PASSWORD FILE ( NOVADOWNLOADS.COM ).txt",
+		"/C/www/andrewfisher.ca/README.md",
+		"/Z/Dropbox/YNAB/My Budget~D48100FB.ynab4/readme.txt",
 		"/C/www/andrewfisher.ca/source/css/components/_experience.scss",
 		"/C/www/andrewfisher.ca/source/css/_base.scss",
 		"/C/www/andrewfisher.ca/source/css/style.css.scss",
@@ -317,17 +311,7 @@
 		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF2/New_Territory/CBF2_SG_ex_top_dv_east.txt",
 		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF2/New_Territory/CBF2_SG_ex_bott_end_west.txt",
 		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF2/New_Territory/CBF2_SG_ex_bott_end_eastX.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF2/New_Territory/CBF2_SG_ex_bott_end_east.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF2/New_Territory/CBF2_SG_ex_bott_dv_west.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF2/New_Territory/CBF2_SG_ex_bott_dv_east.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF2/New_Territory/CBF2_SG_ex_top_mid.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_top_end_east.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_top_dv_west.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_top_mid.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_bott_end_west.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_bott_dv_west.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_top_dv_east.txt",
-		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF1/New_Territory/CBF1_SG_ex_bott_end_east.txt"
+		"/Z/Documents/UniversityofToronto/Thesis/Analysis/Strain_Gauges/Analyzed_Data/CBF2/New_Territory/CBF2_SG_ex_bott_end_east.txt"
 	],
 	"find":
 	{
@@ -461,64 +445,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Z/Documents/Personal Documents/Employment/Resumes/Structural Resume/Date/resume_datelist.html",
-					"settings":
-					{
-						"buffer_size": 14457,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1351,
-								1351
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 486.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "source/index.html",
-					"settings":
-					{
-						"buffer_size": 25232,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16760,
-								16760
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4104.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
