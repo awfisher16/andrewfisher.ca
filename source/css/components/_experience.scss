@@ -15,8 +15,9 @@ $flex-box-font-hover-color: $darkbrown;
 
 $flex-box-background-images:
   '/img/Structural.jpg',
-  '/img/Bridges.jpg',
+  '/img/Research.jpg',
   '/img/Wind.jpg',
+  '/img/Bridges.jpg',
   '/img/Land.jpg',
   '/img/Testing.jpg';
 
@@ -113,7 +114,7 @@ $flex-box-background-images:
         font-weight: normal;
       }
 
-      @for $i from 1 to 6 {
+      @for $i from 1 to 7 {
       // assign images from $flex-box-background-images list
         &:nth-child(#{$i}) {
           $image-from-list: nth($flex-box-background-images, $i);
@@ -132,7 +133,7 @@ $flex-box-background-images:
       }
 
       @include media($medium-screen) {
-        @for $i from 1 to 6 {
+        @for $i from 1 to 7 {
         // assign images from $flex-box-background-images list
           &:nth-child(#{$i}) {
             $image-from-list: nth($flex-box-background-images, $i);
@@ -161,7 +162,7 @@ $flex-box-background-images:
         &:hover {
         border-top: 8px solid $flex-box-top-hover-color;
 
-          @for $i from 1 to 6 {
+          @for $i from 1 to 7 {
           // assign images from $flex-box-background-images list
             &:nth-child(#{$i}) {
               $image-from-list: nth($flex-box-background-images, $i);
@@ -187,6 +188,12 @@ $flex-box-background-images:
             visibility: visible;
           }
         }
+      }
+    }
+
+    @include media($large-screen) {
+      .flex-box-big {
+        flex: 1 1 30em;
       }
     }
   }

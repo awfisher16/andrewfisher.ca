@@ -161,7 +161,7 @@
       h2 {
         color: $header2-font-color;
         margin: auto;
-        margin-bottom: .5em;
+        margin-bottom: 0.5em;
         font-size: 1.5em;
 
         @include media($medium-screen) {
