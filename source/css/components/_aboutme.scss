@@ -40,6 +40,19 @@ $aboutme-bullet-image-color: $darkbrown;
       margin-bottom: 2em;
     }
 
+    a{
+      color: $aboutme-text-color;
+      border-bottom: 1px dotted $aboutme-text-color;
+      text-decoration: none;
+
+      @include media($medium-screen) {
+        &:hover{
+          color: $aboutme-text-highlight-colour;
+          border-bottom-color: $aboutme-text-highlight-colour;
+        }
+      }
+    }
+
     @include reset-display();
   }
 }
