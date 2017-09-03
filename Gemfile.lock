@@ -181,3 +181,6 @@ DEPENDENCIES
   rails (~> 4.1.0)
   refills
   tzinfo-data
+
+BUNDLED WITH
+   1.15.3
