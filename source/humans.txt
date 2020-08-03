@@ -1,8 +1,0 @@
-/* TEAM */
-  Developer and Designer: Andrew Fisher
-  Twitter: @awfisher16
-
-/* SITE */
-  Standards: HTML5, CSS3
-  Components: Bourbon, Neat, Bitters, Refills
-  Software: Middleman, Git, Sublime Text 3
